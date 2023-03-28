@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="745px" viewBox="0 0 1440 745" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="77.5740053%" y1="43.8376683%" x2="-44.4143352%" y2="31.1969552%" id="linearGradient-1">
+            <stop stop-color="rgba(77, 20, 140, 1)" offset="0.0220238746%"></stop>
+            <stop stop-color="rgba(77, 20, 140, 1)" offset="100%"></stop>
+            <stop stop-color="rgba(77, 20, 140, 1)" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="11.-Home-page-&amp;-top-of-the-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-111.774305, -123.865651)">
+            <g id="Path-Copy-3" transform="translate(846.000000, 570.000000) rotate(169.000000) translate(-846.000000, -570.000000) translate(68.000000, 141.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <path d="M1555.76216,275.72222 L1451.19883,813.653917 C1301.87464,890.887222 1116.75492,866.532912 991.58954,741.02802 C765.09929,513.923412 379.199587,534.835702 152.709337,761.940318 L0.0663097221,732.269519 L142.219011,0.957267143 L1555.76216,275.72222 Z" id="path-2"></path>
+            </g>
+            <path d="M111.774305,647.865651 C704.774305,890.532317 1184.77431,743.865651 1551.77431,207.865651" id="Path-7" stroke="#E2E7F3" stroke-width="1.5"></path>
+        </g>
+    </g>
+</svg>
