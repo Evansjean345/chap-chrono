@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 export default function Hero() {
   return (
@@ -8,18 +9,24 @@ export default function Hero() {
           <strong className="md:text-[64px] text-[26px] md:text-start  md:leading-[78px] tracking-[0.27px] text-[#ffff] drop-shadow-lg md:ml-0 md:mt-0 mt-4">
             La livraison en cotransportage c'est nous !
           </strong>
-          <label
-            tabIndex={0}
-            className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white w-[180px] mt-6 cursor-pointer"
-          >
-            Je découvre
-          </label>
+          <Link to="/retail" className="mt-6">
+            <label
+              tabIndex={0}
+              className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white w-[180px]  cursor-pointer"
+            >
+              Je découvre
+            </label>
+          </Link>
         </div>
       </div>
       <div className=" w-1/2 hidden md:visible"></div>
       <div className="">
         <div className="flex h-3 flex-col absolute top-[220px] md:top-[225px] md:left-[600px] left">
-          <img src="/card-img/commande.png" alt="" className="h-[230px] w-[330px]" />
+          <img
+            src="/card-img/commande.png"
+            alt=""
+            className="h-[230px] w-[330px]"
+          />
         </div>
         <div className="items-rounded flex h-3 flex-col absolute top-[180px] md:top-[125px] md:left-[900px] left">
           <img src="/card-img/recuperation.png" alt="" className="h-[230px]" />

@@ -17,12 +17,14 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                FLEXIBILITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                pas de limite de livraisons
                 <br />
-                consectetur adipisicing elit. Nisi
+                sur un même créneau
+                <br />
+                horaire
               </div>
             </li>
             {/** */}
@@ -34,12 +36,10 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                RAPIDITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
+              <div className="text-center text-black">
+                livrez vos clients rapidement
               </div>
             </li>
             {/****** */}
@@ -51,12 +51,14 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ÉCONOMIQUE
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                mise en place de la livraison
                 <br />
-                consectetur adipisicing elit. Nisi
+                sans frais structurel
+                <br />
+                et humain
               </div>
             </li>
             {/**** */}
@@ -68,12 +70,14 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                COMPÉTITIF
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                acquisition de nouveaux
                 <br />
-                consectetur adipisicing elit. Nisi
+                clients et augmentation de
+                <br />
+                votre panier moyen
               </div>
             </li>
           </ul>
@@ -94,12 +98,10 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                + 4000
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
+              <div className="text-center text-black">
+                livraisons effectuées
               </div>
             </li>
             {/** */}
@@ -111,13 +113,9 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                + 100
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+              <div className="text-center text-black">communes livrées</div>
             </li>
             {/****** */}
             <li className="flex flex-col items-center lg:mx-8 ">
@@ -128,13 +126,9 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                + 500
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+              <div className="text-center text-black">magasins partenaires</div>
             </li>
             {/**** */}
             <li className="flex flex-col items-center lg:mx-8">
@@ -145,12 +139,12 @@ export default function Advantage() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                4,8 / 5
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                expérience utilisateur
                 <br />
-                consectetur adipisicing elit. Nisi
+                reconnue
               </div>
             </li>
           </ul>

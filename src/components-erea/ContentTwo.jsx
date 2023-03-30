@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ContentTwo() {
   return (
@@ -12,24 +13,20 @@ export default function ContentTwo() {
               vos livraisons
             </strong>
             <p className="text-[17px] lg:my-16 mt-6 mb-8">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              <strong>
-                {" "}
-                quisquam! Modi quasi temporibus provident necessitatibus iure
-                neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
-              </strong>
-              consectetur adipisicing elit. Quibusdam molestiae laborum ratione
-              tenetur magni magnam similique natus, et unde eum voluptates
-              voluptatem dicta molestias ea qui laudantium laboriosam aperiam
-              sunt!
+              Notre interface est{" "}
+              <strong>accessible à partir de votre navigateur web</strong>, où
+              vous pouvez créer vos envois manuellement ou en utilisant une
+              entrée automatique de données pour vos informations de livraison
+              via une <strong>API intégrée</strong>.
             </p>
-            <label
-              tabIndex={0}
-              className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white mt-5 cursor-pointer"
-            >
-              Cliquez là
-            </label>
+            <Link to="/interface" className="mt-5">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white  cursor-pointer"
+              >
+                en savoir plus
+              </label>
+            </Link>
           </div>
         </div>
         <div className="order-1 md:w-1/2 w-full lg:p-16 lg:pt-12 lg:pl-20 p-12">
@@ -37,7 +34,7 @@ export default function ContentTwo() {
             src="/img-two/pc-img.png"
             alt=""
             srcset=""
-            className="h-[500px] w-[500px]"
+            className="sm:h-[400px] w-[500px]"
           />
         </div>
       </div>
@@ -97,23 +94,20 @@ export default function ContentTwo() {
           className="h-[62px] w-[151px] mt-12"
         />
         <strong className="lg:text-[24px] text-3xl text-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-          Et vous ?
-          <br />
-          Souriez, c'est livré
+          Prenez contact dès maintenant
         </strong>
-        <p className="text-center lg:px-[400px] mt-4">
-          Lorem :
-          <br /> ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-          tempora vero eius inventore veniam quo quis, unde quas rem magnam
-          praesentium fuga, beatae suscipit esse vitae quos aliquid quidem
-          ratione.
+        <p className="text-center lg:px-[400px] text-black mt-4">
+          Découvrez nos offres, posez vos questions sur notre service, nous
+          sommes là pour répondre à vos interrogations.
         </p>
-        <label
-          tabIndex={0}
-          className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white mt-5 cursor-pointer"
-        >
-            Rejoignez Chapchrono
-        </label>
+        <Link to="/career" className="mt-5">
+          <label
+            tabIndex={0}
+            className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white  cursor-pointer"
+          >
+            Je souhaite être contacté(e)
+          </label>
+        </Link>
       </div>
     </>
   );

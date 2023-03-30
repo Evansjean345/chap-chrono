@@ -1,5 +1,6 @@
 import React from "react";
 import bgSlider from "../bg-slider.png";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 export default function AdvantageAndSlider() {
@@ -20,12 +21,14 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                FLEXIBILITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                pas de limite de livraisons
                 <br />
-                consectetur adipisicing elit. Nisi
+                sur un même créneau
+                <br />
+                horaire
               </div>
             </li>
             {/** */}
@@ -37,12 +40,10 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                RAPIDITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
+              <div className="text-center text-black">
+                livrez vos clients rapidement
               </div>
             </li>
             {/****** */}
@@ -54,12 +55,14 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ÉCONOMIQUE
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                mise en place de la livraison
                 <br />
-                consectetur adipisicing elit. Nisi
+                sans frais structurel
+                <br />
+                et humain
               </div>
             </li>
             {/**** */}
@@ -71,12 +74,14 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                COMPÉTITIF
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                acquisition de nouveaux
                 <br />
-                consectetur adipisicing elit. Nisi
+                clients et augmentation
+                <br />
+                de votre panier moyen
               </div>
             </li>
           </ul>
@@ -370,12 +375,12 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                +1 500 000
                 <br />
-                consectetur adipisicing elit. Nisi
+                UTILISATEURS
+              </strong>
+              <div className="text-center text-black">
+                partout en Côte d'Ivoire
               </div>
             </li>
             {/** */}
@@ -387,12 +392,14 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                DIGITALISATION
                 <br />
-                consectetur adipisicing elit. Nisi
+                SIMPLE
+              </strong>
+              <div className="text-center text-black">
+                une interface facile
+                <br />
+                d'utilisation
               </div>
             </li>
             {/****** */}
@@ -404,12 +411,16 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                UTILISATEURS
                 <br />
-                consectetur adipisicing elit. Nisi
+                VÉRIFIÉS
+              </strong>
+              <div className="text-center text-black">
+                CNI des cotransporteurs
+                <br />
+                (livreurs particuliers)
+                <br />
+                vérifiées par Chapchrono
               </div>
             </li>
             {/**** */}
@@ -421,12 +432,14 @@ export default function AdvantageAndSlider() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ASSISTANCE 6J/7
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                suivi des livraisons en
                 <br />
-                consectetur adipisicing elit. Nisi
+                temps réel par notre service
+                <br />
+                client
               </div>
             </li>
           </ul>
@@ -441,25 +454,21 @@ export default function AdvantageAndSlider() {
               <br />
               vos livraisons
             </strong>
-            <p className="text-[17px] lg:my-16 mt-6 mb-8">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              <strong>
-                {" "}
-                quisquam! Modi quasi temporibus provident necessitatibus iure
-                neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
-              </strong>
-              consectetur adipisicing elit. Quibusdam molestiae laborum ratione
-              tenetur magni magnam similique natus, et unde eum voluptates
-              voluptatem dicta molestias ea qui laudantium laboriosam aperiam
-              sunt!
+            <p className="text-[17px] lg:my-16 mt-6 mb-8 text-black">
+              Notre interface est{" "}
+              <strong>accessible à partir de votre navigateur web</strong>, où
+              vous pouvez créer vos envois manuellement ou en utilisant une
+              entrée automatique de données pour vos informations de livraison
+              via une <strong>API intégrée</strong>.
             </p>
-            <label
-              tabIndex={0}
-              className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white mt-5 cursor-pointer"
-            >
-              Cliquez là
-            </label>
+            <Link to="/interface" className="mt-5">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white  cursor-pointer"
+              >
+                en savoir plus
+              </label>
+            </Link>
           </div>
         </div>
         <div className="order-1 md:w-1/2 w-full lg:p-16 lg:pt-12 lg:pl-20 p-12">
@@ -467,7 +476,7 @@ export default function AdvantageAndSlider() {
             src="/img-two/pc-img.png"
             alt=""
             srcset=""
-            className="h-[500px] w-[500px]"
+            className="sm:h-[400px] w-[500px]"
           />
         </div>
       </div>

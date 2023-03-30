@@ -11,17 +11,25 @@ export default function ContentOne() {
               <br />
               un sujet qui fâche
             </strong>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
+            <p className="text-[17px] mt-6 text-black">
+              Nous rendons la livraison plus{" "}
+              <trong>souple, économique et sociale</trong> en faisant récupérer
+              les commandes de nos clients par des cotransporteurs
+              (particuliers) lors de leurs déplacements réguliers,{" "}
+              <strong>moyennant de l'argent</strong>. C'est la philosophie du
+              covoiturage appliquée à la livraison de course.
             </p>
-            <p className="text-[17px] mt-4 mb-8">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
+            <p className="text-[17px] mt-4 mb-8 text-black">
+              Avec
+              <strong>
+                {" "}
+                aucune nécessité d’investissements d’avant-garde dans les
+                infrastructures ou les véhicules
+              </strong>
+              , et la capacité d’étendre la capacité de livraison
+              exponentiellement sans frais supplémentaires, ce service de
+              livraison express est une solution à faible coût qui fonctionne
+              dans les <strong>zones urbaines et rurales.</strong>
             </p>
             <label
               tabIndex={0}
@@ -36,7 +44,7 @@ export default function ContentOne() {
             src="/img-two/img-content-two.png"
             alt=""
             srcset=""
-            className="h-[400px]"
+            className="sm:h-[400px]"
           />
         </div>
       </div>
@@ -51,19 +59,25 @@ export default function ContentOne() {
               <br />
               distribution
             </strong>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
+            <p className="text-[17px] mt-6 text-black">
+              Depuis <strong>sa création</strong>, notre service est utilisé par
+              les plus grands détaillants.
             </p>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
+            <p className="text-[17px] mt-6 text-black">
+              Nous sommes aujourd’hui le{" "}
+              <strong>
+                1er service de livraison en Côte d'Ivoire dans le transport
+                partagé pour les véhicules
+              </strong>
+              , où nous couvrons 100% du territoire.
             </p>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at.
+            <p className="text-[17px] mt-6 text-black">
+              <strong>
+                Réduire les taux de saturation, améliorer la taille moyenne du
+                panier pour les clients , acquérir de nouveaux clients
+              </strong>
+              aujourd'hui, le cotransport est un fort argument pour les grands
+              détaillants.
             </p>
           </div>
         </div>

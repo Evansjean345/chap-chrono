@@ -24,13 +24,11 @@ export default function Card() {
                       attentifs
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Les magasins indépendants et les grandes entreprises
+                      choisissent des livraisons plus justes.
                     </p>
-                    <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                    <p className="text-center text-[12px] mt-10 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                      Vous en êtes où?
                     </p>
                   </div>
                 </div>
@@ -48,18 +46,17 @@ export default function Card() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-16  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
+                      Des cotransporteurs
                       <br />
-                      attentifs
+                      bienveillants
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Les personnes qui profitent régulièrement de leurs
+                      commutes pour faire des livraisons, en échange de quelques
+                      sous
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                      Et si c'était vous?
                     </p>
                   </div>
                 </div>
@@ -77,18 +74,16 @@ export default function Card() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-16  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
+                      Des consommateurs
                       <br />
-                      attentifs
+                      consciencieux
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Les consommateurs qui choisissent d’avoir leurs produits
+                      livrés par des personnes qui les ressemblent.
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                      Ça vous parle?
                     </p>
                   </div>
                 </div>

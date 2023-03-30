@@ -19,6 +19,10 @@
   .partner-container{
     height: 700px;
   }
+  .partner-container-two{
+    height: 800px;
+    padding-top: 100px;
+  }
   .btn-slider{
     visibility: hidden;
   }
@@ -71,4 +75,5 @@ var--{
   color: #4D148C;
   color: #37145d;
   color: #EFEFF2;
+  color: #21264D;
 }

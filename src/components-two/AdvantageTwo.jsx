@@ -3,7 +3,7 @@ import React from "react";
 export default function AdvantageTwo() {
   return (
     <>
-      <div className="flex flex-col lg:justify-center bg-[#EFEFF2] lg:h-[500px] h-[1150px] w-full lg:pt-0 p-[35px]">
+      <div className="flex flex-col lg:justify-center bg-[#EFEFF2] lg:h-[650px] h-[1150px] w-full lg:pt-0 p-[35px]">
         <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg text-center">
           Les avantages de notre solution
         </strong>
@@ -17,13 +17,11 @@ export default function AdvantageTwo() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                +1 500
                 <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+                UTILISATEURS
+              </strong>
+              <div className="text-center text-black">partout en Côte d'Ivoire</div>
             </li>
             {/** */}
             <li className="flex flex-col  items-center lg:mx-8">
@@ -34,12 +32,12 @@ export default function AdvantageTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                DIGITALISATION
                 <br />
-                consectetur adipisicing elit. Nisi
+                SIMPLE
+              </strong>
+              <div className="text-center text-black">
+                une interface facile d'utilisation
               </div>
             </li>
             {/****** */}
@@ -51,12 +49,16 @@ export default function AdvantageTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                UTILISATEURS
                 <br />
-                consectetur adipisicing elit. Nisi
+                VÉRIFIÉS
+              </strong>
+              <div className="text-center text-black">
+                CNI des cotransporteurs
+                <br />
+                (livreurs particuliers)
+                <br />
+                vérifiées par Chapchrono
               </div>
             </li>
             {/**** */}
@@ -68,12 +70,14 @@ export default function AdvantageTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ASSISTANCE 6J/7
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                suivi des livraisons en
                 <br />
-                consectetur adipisicing elit. Nisi
+                temps réel par notre service
+                <br />
+                client
               </div>
             </li>
           </ul>

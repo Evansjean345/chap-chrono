@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Content() {
   return (
@@ -7,20 +8,27 @@ export default function Content() {
         <div className="order-2 h-full md:w-1/2 w-full lg:pl-0  lg:p-12">
           <div className="lg:p-4 p-10">
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-              Qui sommes nous
+              Qui sommes nous ?
             </strong>
-            <p className="text-[17px] mt-12 mb-20">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
+            <p className="text-[17px] mt-12 mb-20 text-black">
+              Nous rendons la livraison{" "}
+              <strong>plus souple, économique et sociale</strong> en faisant
+              récupérer les fleurs de vos clients par des cotransporteurs
+              (particuliers) lors de leurs déplacements réguliers,{" "}
+              <strong>moyennant de l'argent.</strong>
+              <br />
+              <br />
+              C'est la philosophie du covoiturage appliquée à la livraison de
+              course.
             </p>
-            <label
-              tabIndex={0}
-              className="hover:bg-[#3b1169] bg-[#4D148C] rounded-full  p-3 px-10 text-white cursor-pointer"
-            >
-              Découvrir la vidéo
-            </label>
+            <Link to="/trade">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#3b1169] bg-[#4D148C] rounded-full  p-3 px-10 text-white cursor-pointer"
+              >
+                Découvrir la vidéo
+              </label>
+            </Link>
           </div>
         </div>
         <div className="order-1  md:w-1/2 w-full lg:p-16 lg:pt-12 lg:pl-24 p-12">
@@ -28,7 +36,7 @@ export default function Content() {
             src="/img-two/img-content-two.png"
             alt=""
             srcset=""
-            className="h-[400px]"
+            className="sm:h-[400px]"
           />
         </div>
       </div>
@@ -39,17 +47,29 @@ export default function Content() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Un service favorable à toute une activité
             </strong>
-            <p className="text-[17px] mt-8">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
+            <p className="text-[17px] mt-8 text-black">
+              Sport, culture, bricolage...{" "}
+              <strong>Nous livrons tout type de produits.</strong>
+              <br />
+              <br />
+              Nous sommes actuellement{" "}
+              <strong>
+                l'unique entreprise de contransportage en Côte d'Ivoire
+              </strong>{" "}
+              et nous couvrons une grande partie du territoire.
             </p>
           </div>
         </div>
         <div className="hero-content-two  h-full md:w-1/2 w-full lg:p-36 lg:pt-12 lg:pl-0 p-12">
-          <img src="/img-two/content-3.png" alt="" srcset="" className="h-[400px] w-[500px]" />
+          <img
+            src="/img-two/content-3.png"
+            alt=""
+            srcset=""
+            className="sm:h-[400px] w-[500px]"
+          />
         </div>
       </div>
-      {/* Patner Part */}
+      {/* Advantage Part */}
       <div className="flex flex-col lg:justify-center bg-white lg:h-[550px] h-[1150px] w-full lg:pt-0 p-[35px]">
         <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg pt-16 lg:pt-0  text-center">
           Les avantages de notre solution
@@ -64,12 +84,14 @@ export default function Content() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                FLEXIBILITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                pas de limite de livraisons
                 <br />
-                consectetur adipisicing elit. Nisi
+                sur un même créneau
+                <br />
+                horaire
               </div>
             </li>
             {/** */}
@@ -81,12 +103,10 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                RAPIDITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
+              <div className="text-center text-black">
+                livrez vos clients rapidement
               </div>
             </li>
             {/****** */}
@@ -98,12 +118,14 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ÉCONOMIQUE
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                mise en place de la livraison
                 <br />
-                consectetur adipisicing elit. Nisi
+                sans frais structurel
+                <br />
+                et humain
               </div>
             </li>
             {/**** */}
@@ -115,12 +137,14 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                COMPÉTITIF
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                acquisition de nouveaux
                 <br />
-                consectetur adipisicing elit. Nisi
+                clients et augmentation de
+                <br />
+                votre panier moyen
               </div>
             </li>
           </ul>

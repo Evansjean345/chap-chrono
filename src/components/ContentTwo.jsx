@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 export default function ContentTwo() {
   return (
@@ -15,19 +16,24 @@ export default function ContentTwo() {
           <br />
           Souriez, c'est livré
         </strong>
-        <p className="text-center lg:px-[400px] mt-4">
-          Lorem :
-          <br /> ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-          tempora vero eius inventore veniam quo quis, unde quas rem magnam
-          praesentium fuga, beatae suscipit esse vitae quos aliquid quidem
-          ratione.
+        <p className="text-center lg:px-[400px] mt-4 text-black">
+          Vous souhaitez :
+          <br /> - Offrir une méthode de livraison différente à vos clients pour
+          leurs commandes.
+          <br />
+          - Gagner quelques sous lors de vos déplacements, juste en livrant des
+          colis.
+          <br />- Vous faire livrer vos achats par des personnes qui vous
+          ressemblent.
         </p>
-        <label
+       <Link to="/consommateurs" className="mt-5" >
+       <label
           tabIndex={0}
-          className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white mt-5 cursor-pointer"
+          className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white cursor-pointer"
         >
-            Rejoignez Chapchrono
+          Rejoignez Chapchrono
         </label>
+       </Link>
       </div>
     </>
   );

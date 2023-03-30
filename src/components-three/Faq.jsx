@@ -25,7 +25,7 @@ export default function Faq() {
                     srcset=""
                     className="h-[55px] w-[55px]"
                   />
-                  <strong className="text-start md:mt-3">
+                  <strong className="text-start md:mt-3 text-[#21264D]">
                     prenez contact avoc notre equipe
                   </strong>
                   {show ? (
@@ -53,9 +53,10 @@ export default function Faq() {
                 </div>
                 {show ? (
                   <>
-                    <p className="p-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Magnam illo fugiat aperiam. Maxime eligendi aut veniam
+                    <p className="p-4 text-black">
+                      Rendez-vous en bas de page pour envoyer votre demande de
+                      contact, nous vous rappellerons dans les plus brefs
+                      délais.
                     </p>
                   </>
                 ) : (
@@ -70,7 +71,7 @@ export default function Faq() {
                     srcset=""
                     className="h-[65px] w-[65px]"
                   />
-                  <strong className="text-start md:mt-3">
+                  <strong className="text-start md:mt-3 text-[#21264D]">
                     prenez contact avoc notre equipe
                   </strong>
                   {show1 ? (
@@ -104,9 +105,10 @@ export default function Faq() {
                 </div>
                 {show1 ? (
                   <>
-                    <p className="p-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Magnam illo fugiat aperiam. Maxime eligendi aut veniam
+                    <p className="p-4 text-black">
+                      Une personne de notre équipe se chargera de vous former
+                      sur l’interface de gestion des livraisons (environ 15-30
+                      min).
                     </p>
                   </>
                 ) : (
@@ -121,7 +123,7 @@ export default function Faq() {
                     srcset=""
                     className="h-[65px] w-[65px]"
                   />
-                  <strong className="text-start md:mt-3">
+                  <strong className="text-start md:mt-3 text-[#21264D]">
                     prenez contact avoc notre equipe
                   </strong>
                   {show2 ? (
@@ -155,9 +157,10 @@ export default function Faq() {
                 </div>
                 {show2 ? (
                   <>
-                    <p className="p-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Magnam illo fugiat aperiam. Maxime eligendi aut veniam
+                    <p className="p-4 text-black">
+                      Une fois vos identifiants reçus vous pouvez directement
+                      vous rendre sur l’interface Shopopop et commencez vos
+                      livraisons.
                     </p>
                   </>
                 ) : (
@@ -174,7 +177,9 @@ export default function Faq() {
                 src="/logo/illu-2.png"
                 alt=""
                 srcset=""
-                className={show2 & showimg2 ? `hidden` : `h-[400px] w-[600px]`}
+                className={
+                  show2 & showimg2 ? `hidden` : `sm:h-[400px] w-[600px]`
+                }
               />
             </>
           ) : (
@@ -185,7 +190,7 @@ export default function Faq() {
                 alt=""
                 srcset=""
                 className={
-                  show2 & showimg2 ? `hidden` : `h-[400px] w-[600px]`
+                  show2 & showimg2 ? `hidden` : `sm:h-[400px] w-[600px]`
                 }
               />
             </>
@@ -196,12 +201,11 @@ export default function Faq() {
                 src="/logo/illu-3.png"
                 alt=""
                 srcset=""
-                className="h-[400px] w-[600px]"
+                className="sm:h-[400px] w-[600px]"
               />
             </>
           ) : (
-            <>
-            </>
+            <></>
           )}
         </div>
       </div>

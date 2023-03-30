@@ -21,11 +21,9 @@ export default function CardAndSwiper() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-16  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
-                      <br />
-                      attentifs
+                      SPORTS & LOISIRS
                     </strong>
-                    <p className="text-center text-[12px]   px-5 mt-2">
+                    <p className="text-center text-[12px] text-black  px-5 mt-2">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Neque et ducimus reiciendis magnam vero minus explicabo
                       quaerat, dicta obcaecati voluptas delectus nostrum tempore
@@ -50,11 +48,9 @@ export default function CardAndSwiper() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-16  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
-                      <br />
-                      attentifs
+                      MODE, PRÊT-À-PORTER
                     </strong>
-                    <p className="text-center text-[12px]   px-5 mt-2">
+                    <p className="text-center text-[12px] text-black  px-5 mt-2">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Neque et ducimus reiciendis magnam vero minus explicabo
                       quaerat, dicta obcaecati voluptas delectus nostrum tempore
@@ -79,9 +75,7 @@ export default function CardAndSwiper() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-16  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
-                      <br />
-                      attentifs
+                      CULTURE
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -293,13 +287,11 @@ export default function CardAndSwiper() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
-              </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+                +1 500 000
                 <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+                UTILISATEURS
+              </strong>
+              <div className="text-center">partout en Côte d'Ivoire</div>
             </li>
             {/** */}
             <li className="flex flex-col  items-center lg:mx-8">
@@ -310,12 +302,14 @@ export default function CardAndSwiper() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                DIGITALISATION
+                <br />
+                SIMPLE
               </strong>
               <div className="text-center">
-                Lorem ipsum dolor sit amet
+                une interface facile
                 <br />
-                consectetur adipisicing elit. Nisi
+                d'utilisation
               </div>
             </li>
             {/****** */}
@@ -327,12 +321,16 @@ export default function CardAndSwiper() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                UTILISATEURS
+                <br />
+                VÉRIFIÉS
               </strong>
               <div className="text-center">
-                Lorem ipsum dolor sit amet
+                CNI des cotransporteurs
                 <br />
-                consectetur adipisicing elit. Nisi
+                (livreurs particuliers)
+                <br />
+                vérifiées par Chapchrono
               </div>
             </li>
             {/**** */}
@@ -344,12 +342,14 @@ export default function CardAndSwiper() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ASSISTANCE 6J/7
               </strong>
               <div className="text-center">
-                Lorem ipsum dolor sit amet
+                suivi des livraisons en
                 <br />
-                consectetur adipisicing elit. Nisi
+                temps réel par notre service
+                <br />
+                client
               </div>
             </li>
           </ul>

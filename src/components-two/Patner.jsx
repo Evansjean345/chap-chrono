@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Patner() {
   return (
     <>
-      <div className="partner-container flex justify-center bg-[#EFEFF2] h-[223px] w-full p-[35px]">
-        <div className=" flex p-[25px] justify-center bg-none h-[128px] w-full ">
+      <div className="partner-container-two flex-col flex items-center justify-center bg-[#EFEFF2] h-[323px] w-full p-[35px]">
+        <strong className="lg:text-[24px] text-3xl text-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
+          Ils ont eu confiance en nous
+        </strong>
+        <div className="partner-container-two flex p-[25px] justify-center bg-none h-[128px] w-full ">
           <ul className="list-partner flex">
             <li>
               <img
@@ -58,23 +62,20 @@ export default function Patner() {
           className="h-[62px] w-[151px] mt-12"
         />
         <strong className="lg:text-[24px] text-3xl text-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-          Et vous ?
-          <br />
-          Souriez, c'est livré
+          Prenez contact dès maintenant
         </strong>
         <p className="text-center lg:px-[400px] mt-4">
-          Lorem :
-          <br /> ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-          tempora vero eius inventore veniam quo quis, unde quas rem magnam
-          praesentium fuga, beatae suscipit esse vitae quos aliquid quidem
-          ratione.
+          Découvrez nos offres, posez vos questions sur notre service, nous
+          sommes là pour répondre à vos interrogations.
         </p>
-        <label
-          tabIndex={0}
-          className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white mt-5 cursor-pointer"
-        >
-            Rejoignez Chapchrono
-        </label>
+        <Link to="/career" className="mt-5">
+          <label
+            tabIndex={0}
+            className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white cursor-pointer"
+          >
+            Je souhaite être contacté(e)
+          </label>
+        </Link>
       </div>
     </>
   );
