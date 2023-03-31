@@ -12,7 +12,7 @@ export default function ContentTwo() {
               <br />
               vos livraisons
             </strong>
-            <p className="text-[17px] lg:my-16 mt-6 mb-8">
+            <p className="text-[17px] lg:my-16 mt-6 mb-8 text-black">
               Notre interface est{" "}
               <strong>accessible à partir de votre navigateur web</strong>, où
               vous pouvez créer vos envois manuellement ou en utilisant une

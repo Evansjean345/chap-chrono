@@ -291,7 +291,7 @@ export default function CardAndSwiper() {
                 <br />
                 UTILISATEURS
               </strong>
-              <div className="text-center">partout en Côte d'Ivoire</div>
+              <div className="text-center text-black">partout en Côte d'Ivoire</div>
             </li>
             {/** */}
             <li className="flex flex-col  items-center lg:mx-8">
@@ -306,7 +306,7 @@ export default function CardAndSwiper() {
                 <br />
                 SIMPLE
               </strong>
-              <div className="text-center">
+              <div className="text-center text-black">
                 une interface facile
                 <br />
                 d'utilisation
@@ -325,7 +325,7 @@ export default function CardAndSwiper() {
                 <br />
                 VÉRIFIÉS
               </strong>
-              <div className="text-center">
+              <div className="text-center text-black">
                 CNI des cotransporteurs
                 <br />
                 (livreurs particuliers)
@@ -344,7 +344,7 @@ export default function CardAndSwiper() {
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
                 ASSISTANCE 6J/7
               </strong>
-              <div className="text-center">
+              <div className="text-center text-black">
                 suivi des livraisons en
                 <br />
                 temps réel par notre service

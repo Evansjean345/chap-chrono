@@ -82,7 +82,7 @@ export default function ContentOne() {
           </div>
         </div>
         <div className="hero-content-two  h-full md:w-1/2 w-full lg:p-36 lg:pt-12 lg:pl-32 p-12">
-          <img src="/img-two/map.png" alt="" srcset="" className="h-[400px]" />
+          <img src="/img-two/map.png" alt="" srcset="" className="sm:h-[400px]" />
         </div>
       </div>
     </>

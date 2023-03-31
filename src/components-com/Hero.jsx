@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -10,19 +11,21 @@ export default function Hero() {
               rejoignez la communauté
             </strong>
             <p className="mt-6 text-white text-start text-[18px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              expedita omnis nemo possimus labore dolorum deserunt doloribus
-              amet consequuntur! Repellat adipisci minus earum enim dolores
-              eaque dolorem a quidem ex.
+              Lorsque vous rejoignez la communauté Chapchrono, vous deviendrez
+              un cotransporteur! Un cotransporteur est un individu qui profite
+              de ses déplacements réguliers pour livrer des biens aux
+              consommateurs, en échange de quelques sous.
             </p>
             <br />
             <br />
-            <label
-              tabIndex={0}
-              className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white w-[180px] cursor-pointer"
-            >
-              Je m'inscris
-            </label>
+            <Link to="/career">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white w-[180px] cursor-pointer"
+              >
+                Je m'inscris
+              </label>
+            </Link>
           </div>
         </div>
         <div className="h-full md:w-1/2 w-full lg:p-36 lg:pt-12 lg:pl-12 p-12 pt-0">

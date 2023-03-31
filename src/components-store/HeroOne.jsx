@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HeroOne() {
   return (
@@ -14,15 +15,17 @@ export default function HeroOne() {
               cotransportage
             </strong>
             <p className="mt-12  text-center text-white text-[18px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+              Proposez un service de livraison rapide, flexible et abordable à
+              vos clients
             </p>
-            <label
-              tabIndex={0}
-              className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white mt-12"
-            >
-              Ça m'intérresse
-            </label>
+            <Link to="/career" className="mt-12">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+              >
+                Ça m'intérresse
+              </label>
+            </Link>
           </div>
         </div>
       </div>

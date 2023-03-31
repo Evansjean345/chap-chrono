@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function HeroThree() {
   return (
@@ -14,15 +15,18 @@ export default function HeroThree() {
               client à domicile
             </strong>
             <p className="mt-12  text-center text-white text-[18px]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+              Grâce à notre service de livraison de cotransport, vous pouvez
+              rapidement et facilement déplacer vos produits entre différents
+              magasins dans la même ville!
             </p>
-            <label
-              tabIndex={0}
-              className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white mt-12"
-            >
-              Je souhaite etre contacté(e)
-            </label>
+            <Link to="/career" className="mt-12">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+              >
+                Je souhaite etre contacté(e)
+              </label>
+            </Link>
           </div>
         </div>
       </div>

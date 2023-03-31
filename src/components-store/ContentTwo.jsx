@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import bgSlider from "../bg-slider.png";
 
@@ -12,19 +13,17 @@ export default function ContentTwo() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Expédier depuis votre magasin
             </strong>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Quibusdam molestiae laborum ratione
-              tenetur magni magnam similique natus, et unde eum voluptates
-              voluptatem dicta molestias ea qui laudantium laboriosam aperiam
-              sunt!
+            <p className="text-[17px] mt-6 text-black">
+              Lorsqu’un client veut acheter un produit qui n’est plus disponible
+              dans votre magasin, vous pouvez appeler Shopop. Face aux déficits
+              en stock, notre solution vous permet de{" "}
+              <strong>réapprovisionner votre magasin</strong> en offrant des
+              <strong>livraisons expresses entre les magasins</strong> dans la
+              même ville.
             </p>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
+            <p className="text-[17px] mt-6 text-black">
+              Ce service permet de <strong>fidéliser votre clientèle</strong> et
+              de pallier aux déceptions dues aux ruptures de stocks.
             </p>
           </div>
         </div>
@@ -33,7 +32,7 @@ export default function ContentTwo() {
             src="/img-store/img-store-1.png"
             alt=""
             srcset=""
-            className="h-[400px] w-[600px]"
+            className="sm:h-[400px] w-[600px]"
           />
         </div>
       </div>
@@ -99,12 +98,14 @@ export default function ContentTwo() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                FLEXIBILITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                pas de limite de livraisons
                 <br />
-                consectetur adipisicing elit. Nisi
+                sur un même créneau
+                <br />
+                horaire
               </div>
             </li>
             {/** */}
@@ -116,12 +117,10 @@ export default function ContentTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                RAPIDITÉ
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
+              <div className="text-center text-black">
+                livrez vos clients rapidement
               </div>
             </li>
             {/****** */}
@@ -133,12 +132,14 @@ export default function ContentTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                ÉCONOMIQUE
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                mise en place de la livraison
                 <br />
-                consectetur adipisicing elit. Nisi
+                sans frais structurel
+                <br />
+                et humain
               </div>
             </li>
             {/**** */}
@@ -150,12 +151,14 @@ export default function ContentTwo() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                COMPÉTITIF
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                acquisition de nouveaux
                 <br />
-                consectetur adipisicing elit. Nisi
+                clients et augmentation de
+                <br />
+                votre panier moyen
               </div>
             </li>
           </ul>
@@ -168,14 +171,16 @@ export default function ContentTwo() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Un réapprovisionnemnt rapide et flexible
             </strong>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad fuga
-              illum excepturi autem distinctio ipsam, provident vel dolorum
-              omnis consequatur ducimus, tempora repudiandae harum quod nostrum
-              quibusdam qui aperiam natus!
+            <p className="text-[17px] mt-6 text-black">
+              Le service de livraison de Chapchrono vous permet de planifier
+              plusieurs livraisons d'un magasin à un autre. Avec ce service,
+              vous pouvez recevoir les produits attendus par les clients pendant
+              la journée et à tout moment de la journée.
             </p>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
+            <p className="text-[17px] mt-6 text-black">
+              Vous pouvez suivre en temps réel le parcours du cotransporteur
+              (livreur particulier du produit) et informer le client de l'heure
+              d'arrivée de son produit dans votre boutique.
             </p>
           </div>
         </div>
@@ -184,7 +189,7 @@ export default function ContentTwo() {
             src="/img-store/pc-store.png"
             alt=""
             srcset=""
-            className="h-[400px] w-[400px]"
+            className="sm:h-[400px] w-[400px]"
           />
         </div>
       </div>
@@ -195,9 +200,10 @@ export default function ContentTwo() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Une interface business : comment ça marche ?
             </strong>
-            <p className="text-[17px] mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
+            <p className="text-[17px] mt-6 text-black">
+              La plateforme est accessible depuis un navigateur web et vous
+              pouvez démarrer les livraisons le jour même, après la création de
+              votre compte.
             </p>
             <ul className="mt-6">
               <li className="mt-3">
@@ -206,12 +212,10 @@ export default function ContentTwo() {
                     src="pic.png"
                     alt=""
                     srcset=""
-                    className="h-[12px] w-[24px] m-2"
+                    className="h-[12px] w-[12px] m-2"
                   />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore, unde! Ipsum explicabo esse, veniam repellat totam
-                    fugiat amet,
+                  <p className="text-black">
+                    Indiquez les coordonnées de votre magasin
                   </p>
                 </div>
               </li>
@@ -223,10 +227,10 @@ export default function ContentTwo() {
                     srcset=""
                     className="h-[12px] w-[24px] m-2"
                   />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore, unde! Ipsum explicabo esse, veniam repellat totam
-                    fugiat amet,
+                  <p className="text-black">
+                    Renseignez le magasin où le Cotransporteur (livreur
+                    particulier ) doit récupérer le produit en rupture de stock
+                    dans votre boutique
                   </p>
                 </div>
               </li>
@@ -236,12 +240,10 @@ export default function ContentTwo() {
                     src="pic.png"
                     alt=""
                     srcset=""
-                    className="h-[12px] w-[24px] m-2"
+                    className="h-[12px] w-[12px] m-2"
                   />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore, unde! Ipsum explicabo esse, veniam repellat totam
-                    fugiat amet,
+                  <p className="text-black">
+                    Sélectionnez la date et l’heure de livraison souhaitée
                   </p>
                 </div>
               </li>
@@ -251,24 +253,33 @@ export default function ContentTwo() {
                     src="pic.png"
                     alt=""
                     srcset=""
-                    className="h-[12px] w-[24px] m-2"
+                    className="h-[12px] w-[12px] m-2"
                   />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore, unde! Ipsum explicabo esse, veniam repellat totam
-                    fugiat amet,
+                  <p className="text-black">
+                    Lancez la livraison entre vos magasins
+                  </p>
+                </div>
+              </li>
+              <li className="mt-3">
+                <div className="flex">
+                  <p className="text-black">
+                    Regardez chaque étape du processus de livraison, de quand un
+                    vendeur l’enregistre jusqu’à quand il arrive dans votre
+                    magasin.
                   </p>
                 </div>
               </li>
             </ul>
             <br />
             <br />
-            <label
-              tabIndex={0}
-              className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white cursor-pointer"
-            >
-              En savoir plus
-            </label>
+            <Link to="/cotransporteur">
+              <label
+                tabIndex={0}
+                className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white cursor-pointer"
+              >
+                En savoir plus
+              </label>
+            </Link>
           </div>
         </div>
         <div className="order-2 md:w-1/2 w-full lg:p-16 lg:pt-32 lg:pl-12 p-12">
@@ -276,7 +287,7 @@ export default function ContentTwo() {
             src="/img-two/pc-img.png"
             alt=""
             srcset=""
-            className="h-[400px] w-[500px]"
+            className="sm:h-[400px] w-[500px]"
           />
         </div>
       </div>
@@ -474,23 +485,22 @@ export default function ContentTwo() {
           className="h-[62px] w-[151px] mt-12"
         />
         <strong className="lg:text-[24px] text-3xl text-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-          Et vous ?
+          Faites comme eux, livrez vos clients dans
           <br />
-          Souriez, c'est livré
+          votre ville et ses environs !
         </strong>
-        <p className="text-center lg:px-[400px] mt-4">
-          Lorem :
-          <br /> ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-          tempora vero eius inventore veniam quo quis, unde quas rem magnam
-          praesentium fuga, beatae suscipit esse vitae quos aliquid quidem
-          ratione.
+        <p className="text-center lg:px-[400px] mt-4 text-black">
+          Aujourd'hui, plus de 600 magasins partenaires nous font déjà confiance
+          !
         </p>
-        <label
-          tabIndex={0}
-          className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white mt-5 cursor-pointer"
-        >
-          Rejoignez Chapchrono
-        </label>
+        <Link to="/" className="mt-5">
+          <label
+            tabIndex={0}
+            className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white cursor-pointer"
+          >
+            Rejoignez Chapchrono
+          </label>
+        </Link>
       </div>
     </>
   );

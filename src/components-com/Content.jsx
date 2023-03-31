@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "../App.css";
 
 export default function Content() {
@@ -10,11 +11,10 @@ export default function Content() {
         <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg pt-16 lg:pt-0  text-center">
           Des heureux et des sous
         </strong>
-        <p className="text-center flex justify-center mt-12 sm:px-32">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro
-          unde nemo rem dicta doloremque perferendis aliquid. Minus sequi
-          obcaecati expedita? Illum ipsam iusto, rem veniam aut totam dolorem
-          voluptas!
+        <p className="text-center flex justify-center mt-12 sm:px-32 text-black">
+          Chapchrono est idéal pour les gens qui veulent gagner un peu d'argent
+          en aidant les autres. Vous pouvez utiliser l'application pour vous
+          inscrire à des tâches régulières.
         </p>
         <div className=" flex p-[25px] justify-center bg-none h-[128px] w-full lg:mt-8">
           <ul className="list-partner flex">
@@ -26,13 +26,9 @@ export default function Content() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                FCFA
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+              <div className="text-center text-black">Gain moyen</div>
             </li>
             {/** */}
             <li className="flex flex-col  items-center lg:mx-8">
@@ -43,13 +39,9 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                +700
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+              <div className="text-center text-black">téléchargements</div>
             </li>
             {/****** */}
             <li className="flex flex-col items-center lg:mx-8">
@@ -60,17 +52,13 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                + 550
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
-                <br />
-                consectetur adipisicing elit. Nisi
-              </div>
+              <div className="text-center text-black">cotransporteurs</div>
             </li>
           </ul>
         </div>
-        <div className="btn-flex flex justify-center items-center sm:mt-32">
+        <div className="btn-flex flex justify-center items-center sm:mt-32 sm:mr-12">
           <label
             tabIndex={0}
             className="hover:bg-[#ba571a] flex items-center justify-center bg-[#db6013] rounded-full p-1 py-3 px-4 text-white w-[180px] cursor-pointer"
@@ -86,15 +74,13 @@ export default function Content() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Partager , c'est bien
             </strong>
-            <p className="text-[17px] lg:my-16 mt-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Quibusdam molestiae laborum ratione
-              tenetur magni magnam similique natus, et unde eum voluptates
-              voluptatem dicta molestias ea qui laudantium laboriosam aperiam
-              sunt!
+            <p className="text-[17px] lg:my-16 mt-6 text-black">
+              Avez-vous déjà remarqué combien de fois il y a de l'espace
+              supplémentaire dans votre voiture quand vous vous déplacez pour
+              travailler ou prendre vos enfants de l'école? Que se passe-t-il si
+              vous pouviez mettre cet espace à bon usage en faisant des
+              livraisons en échange de quelques sous ? C'est ça le
+              cotransportage !
             </p>
           </div>
         </div>
@@ -103,12 +89,12 @@ export default function Content() {
             src="/heroThree.png"
             alt=""
             srcset=""
-            className="h-[500px] w-[500px]"
+            className="sm:h-[500px] w-[500px]"
           />
         </div>
       </div>
       {/*Advantage Twoo */}
-      <div className="flex flex-col lg:justify-center bg-[#EFEFF2] lg:h-[550px] h-[1150px] w-full lg:pt-0 p-[35px]">
+      <div className="flex flex-col lg:justify-center bg-[#EFEFF2] lg:h-[750px] h-[1150px] w-full lg:pt-0 p-[35px]">
         <br className="supp" />
         <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg pt-16 lg:pt-0  text-center">
           C'est tellement simple
@@ -123,12 +109,17 @@ export default function Content() {
                 className="w-[68px] h-[68px] my-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                CFA
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                <strong>D'abord</strong>
                 <br />
-                consectetur adipisicing elit. Nisi
+                <br />
+                Ouvrez l’application
+                <br />
+                Chapchrono et choisissez une
+                <br />
+                livraison sur votre chemin
               </div>
             </li>
             {/** */}
@@ -140,12 +131,17 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                +700
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                <strong>Ensuite</strong>
                 <br />
-                consectetur adipisicing elit. Nisi
+                <br />
+                Récupérer la commande
+                <br />
+                chez le commerçant
+                <br />
+                partenaire.
               </div>
             </li>
             {/****** */}
@@ -157,16 +153,29 @@ export default function Content() {
                 className="w-[68px] h-[68px] m-[45px] mb-4 drop-shadow-md lg:hover:scale-125 transition-all"
               />
               <strong className="text-center font-[30px] mb-2 text-[#4D148C]">
-                Flexibilité
+                + 550
               </strong>
-              <div className="text-center">
-                Lorem ipsum dolor sit amet
+              <div className="text-center text-black">
+                <strong>Enfin</strong>
                 <br />
-                consectetur adipisicing elit. Nisi
+                <br />
+                Livrez les achats et hop, vos
+                <br />
+                sous seront crédités dans
+                <br />
+                votre cagnotte.
               </div>
             </li>
           </ul>
         </div>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
         <div className="btn-flex flex justify-center items-center sm:mt-32">
           <label
             tabIndex={0}
@@ -183,18 +192,19 @@ export default function Content() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
               Vivons mieux, ensemble
             </strong>
-            <p className="text-[17px] mt-12">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at.
+            <p className="text-[17px] mt-12 text-black">
+              Pour partager les meilleures astuces et se raconter des anecdotes,
+              la communauté se retrouve sur un groupe Facebook dédié. Entraide,
+              partage et solidarité sont les maîtres mots. Allez, venez !
             </p>
-            <label
+           <Link to="/cotransporteur" >
+           <label
               tabIndex={0}
               className="hover:bg-[#ba571a] flex items-center justify-center bg-[#db6013] rounded-full mt-12 p-1 py-3 px-4 text-white w-[180px] cursor-pointer"
             >
               c'est par ici
             </label>
+           </Link>
           </div>
         </div>
         <div className="hero-content-two  h-full md:w-1/2 w-full lg:p-16 lg:pt-0 lg:pl-0 p-0">
@@ -202,7 +212,7 @@ export default function Content() {
             src="/card-img/content-com.png"
             alt=""
             srcset=""
-            className="h-[400px] w-[550px]"
+            className="sm:h-[400px] w-[550px]"
           />
         </div>
       </div>

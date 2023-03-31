@@ -12,6 +12,7 @@ import Career from "./routes/Career";
 import FromYourStore from "./routes/FromYourStore";
 import BetweenYourStore from "./routes/BetweenYourStore";
 import Chariot from "./routes/Chariot";
+import Florist from "./routes/Florist";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/fromYourStore" element={<FromYourStore />} />
         <Route path="/betweenYourStore" element={<BetweenYourStore />} />
-        <Route path="/chariot" element={<Chariot/>} />
+        <Route path="/chariot" element={<Chariot />} />
+        <Route path="/florist" element={<Florist />} />
       </Routes>
     </div>
   );
