@@ -35,13 +35,18 @@ export default function HeroCa() {
               Notre mission ? faire evoluer la livraison
             </strong>
             <p className="text-[17px] mt-12">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Ex, aliquam culpa impedit, veritatis
-              qui aut reiciendis omnis rem provident earum, non corporis labore
-              et quia eius. Quos expedita amet asperiores.
+              Chapchrono est une solution de livraison simple et collaborative
+              qui offre à tous la possibilité d’optimiser leurs ressources
+              (temps, et argent).
+              <br />
+              <br />
+              L'idée est que des particuliers appelés « Cotransporteurs»,
+              profitent de leurs trajets réguliers pour récupérer une commande
+              dans un magasin et le livrer à la maison du client (nourriture,
+              vêtement, etc.), en échange de quelques sous.
+              <br />
+              <br />
+              Notre ambition est d’offrir un service de livraison accessible dans les zones urbaines et rurales, tout en promouvant la proximité et l’assistance quotidienne.
             </p>
           </div>
         </div>
@@ -62,25 +67,25 @@ export default function HeroCa() {
               Notre mission ? faire evoluer la livraison
             </strong>
             <p className="text-[17px] mt-12">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid
-              mollitia incidunt et laborum nemo neque odit consequuntur eius
-              quisquam! Modi quasi temporibus provident necessitatibus iure
-              neque quibusdam in? Fuga, at. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Ex, aliquam culpa impedit, veritatis
-              qui aut reiciendis omnis rem provident earum, non corporis labore
-              et quia eius. Quos expedita amet asperiores.
+              Si vous voulez rejoindre une équipe qui est dynamique et engagée,
+              vous êtes venu au bon endroit! Pendant les pauses, à vous de
+              choisir votre camp : team sieste ou team jeux de
+              société/bavardage. De nombreux gourmands se cachent parmi nous :
+              il y a toujours quelque chose de doux dans la cuisine chaque
+              semaine.
               <br />
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed quos
-              molestiae, nobis officiis maxime enim libero minima sit? Nam unde
-              quaerat nulla vel ut dignissimos accusantium delectus, eius amet
-              obcaecati.
+              Ici, chacun a son mot à dire et nous avons tous le droit à
+              l’erreur : nos idées les plus audacieuses comme les plus farfelues
+              sont écoutées !
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam illo
-              voluptas, amet ipsum doloribus dolores. Ex molestias vitae ea
-              porro maxime ducimus ab repellendus, dolorem assumenda ut, labore
-              pariatur odit!
+              Côté pratique, nos locaux sont situés à Abidjan, angré bessikoi.
+              <br />
+              <br />
+              une dernière chose avant de postuler : nous recevons beaucoup de
+              candidatures alors restez vous-même et évitez les lettres de
+              motivation trop générique, parlez-nous et de votre savoir faire
             </p>
           </div>
         </div>
