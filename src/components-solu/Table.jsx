@@ -8,10 +8,10 @@ export default function Table() {
           <tr>
             <th className="table-cell p-[10px] sm:p-[20px]"></th>
             <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
-              column 2
+              OFFRE 1
             </th>
             <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
-              column 3
+              OFFRE 2
             </th>
           </tr>
         </thead>
@@ -42,10 +42,14 @@ export default function Table() {
               </p>
             </td>
             <td className="border-collapse border-2 border-solid">
-              <p className="sm:p-[20px] p-3"></p>
+              <p className="sm:p-[20px] p-3 flex items-center justify-center">
+                <img src="/img-two/yes.png" alt="" className="w-12" />
+              </p>
             </td>
             <td className="border-collapse border-2 border-solid">
-              <p className="sm:p-[20px] p-3"></p>
+              <p className="sm:p-[20px] p-3 items-center flex justify-center">
+                <img src="/img-two/yes.png" alt=""  className="w-12" />
+              </p>
             </td>
           </tr>
           {/* Ligne 3 */}
@@ -57,10 +61,14 @@ export default function Table() {
               </p>
             </td>
             <td className="border-collapse border-2 border-solid">
-              <p className="sm:p-[20px] p-3"></p>
+              <p className="sm:p-[20px] p-3 flex items-center justify-center">
+              <img src="/img-two/no.png" alt="" className="w-8" />
+              </p>
             </td>
             <td className="border-collapse border-2 border-solid">
-              <p className="sm:p-[20px] p-3"></p>
+              <p className="sm:p-[20px] p-3 flex items-center justify-center">
+              <img src="/img-two/yes.png" alt="" className="w-12" />
+              </p>
             </td>
           </tr>
         </tbody>

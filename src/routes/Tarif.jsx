@@ -2,13 +2,12 @@ import React, { useRef, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import bg from "../bg-store-1.png";
 import "../App.css";
-import HeroInterface from "../components-solu/HeroInterface";
-import Table from "../components-solu/Table";
-import ContentSolu from "../components-solu/ContentSolu";
 import Footer from "../layouts/Footer";
 import AppFooter from "../layouts/AppFooter";
+import HeroSol from "../components-solu/HeroSol";
+import ContentTarif from "../components-solu/ContentTarif";
 
-export default function Interface() {
+export default function Tarif() {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -591,10 +590,9 @@ export default function Interface() {
             </li>
           </ul>
         </div>
-        <HeroInterface />
+        <HeroSol />
       </section>
-      <Table />
-      <ContentSolu />
+      <ContentTarif />
       <Footer />
       <br className="supp" />
       <br className="supp" />

@@ -14,6 +14,7 @@ import BetweenYourStore from "./routes/BetweenYourStore";
 import Chariot from "./routes/Chariot";
 import Florist from "./routes/Florist";
 import Interface from "./routes/Interface";
+import Tarif from "./routes/Tarif";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/chariot" element={<Chariot />} />
         <Route path="/florist" element={<Florist />} />
         <Route path="/interface" element={<Interface />} />
+        <Route path="/tarifs" element={<Tarif />} />
       </Routes>
     </div>
   );
