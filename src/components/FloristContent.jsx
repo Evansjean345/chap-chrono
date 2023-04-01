@@ -57,7 +57,7 @@ export default function FloristContent() {
             <p className="text-[17px] mt-6 text-black">
               Profitez d'un service flexible de livraison disponible 7j/7 y
               compris les jours fériés, sans aucune limite de livraisons sur un
-              même créneau horaire. Shopopop s’adapte aux fluctuations de la
+              même créneau horaire. Chapchrono s’adapte aux fluctuations de la
               demande lors d'évènements tels que la Saint-Valentin ou encore la
               Fête des Mères.
             </p>

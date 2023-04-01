@@ -345,7 +345,7 @@ export default function ContentTarif() {
               <div class="mt-6 space-y-8 md:mt-8">
                 <p class="flex items-start -mx-2 p-6">
                   Vous avez deszones d'ombres sur l'utilisation de l'interface
-                  Shopopop ou nos tarifs ? Contactez-nous !
+                  Chapchrono ou nos tarifs ? Contactez-nous !
                 </p>
               </div>
             </div>

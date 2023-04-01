@@ -24,7 +24,7 @@ export default function ContentOne() {
               d’une plateforme d'entreposage.
             </p>
             <p className="text-[17px] mt-6 text-black">
-              Shopopop est là pour vous accompagner dans la mise en place de ce
+              Chapchrono est là pour vous accompagner dans la mise en place de ce
               service ! Réduisez la distance et les délais de livraison en vous
               appuyant sur le maillage territorial de vos points de vente, et
               proposez une livraison flexible, économique, collaborative et

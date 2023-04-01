@@ -277,7 +277,7 @@ export default function ContentThee() {
                   <p className="text-black">
                     <strong>Le suivi de vos livraisons</strong>
                     <br />
-                    L'interface de Shopopop vous permet de suivre vos livraisons
+                    L'interface de Chapchrono vous permet de suivre vos livraisons
                     en temps réel. Vos clients seront également informés de
                     l'arrivée de leur commande par SMS ou par courrier
                     électronique.
