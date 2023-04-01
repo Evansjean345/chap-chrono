@@ -23,7 +23,7 @@ export default function Card() {
                       <br />
                       attentifs
                     </strong>
-                    <p className="text-center text-[12px]   px-5 mt-2">
+                    <p className="text-center text-[12px] text-black   px-5 mt-2">
                       Les magasins indépendants et les grandes entreprises
                       choisissent des livraisons plus justes.
                     </p>
@@ -51,9 +51,8 @@ export default function Card() {
                       bienveillants
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Les personnes qui profitent régulièrement de leurs
-                      commutes pour faire des livraisons, en échange de quelques
-                      sous
+                      Les consommateurs qui choisissent d’avoir leurs produits
+                      livrés par des personnes qui les ressemblent.
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
                       Et si c'était vous?
