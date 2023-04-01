@@ -512,7 +512,7 @@ export default function ContentTarif() {
             src="/img-two/hero-sol-3.png"
             alt=""
             srcset=""
-            className="sm:h-[500px] h-[350px] w-[400px]"
+            className="sm:h-[500px]  w-[400px]"
           />
         </div>
       </div>
@@ -552,7 +552,7 @@ export default function ContentTarif() {
             src="/img-two/hero-sol-2.png"
             alt=""
             srcset=""
-            className="sm:h-[400px] w-[400px]"
+            className="sm:h-[400px]  w-[400px]"
           />
         </div>
       </div>
