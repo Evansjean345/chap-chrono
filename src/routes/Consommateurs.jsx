@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../App.css";
 import HeroCons from "../components-cons/HeroCons";
-import bg from "../bg-cons.png"
+import bg from "../bg-cons.png";
 import Content from "../components-cons/Content";
 import Footer from "../layouts/Footer";
 import AppFooter from "../layouts/AppFooter";
@@ -52,20 +52,26 @@ export default function Consommateurs() {
                         </div>
                         <div className="font-meduim">
                           <ul>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/retail">Grande distribution</Link>
-                            </li>
-                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/florist">Fleuristes</Link>
-                            </li>
-                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/largeErea">
+                            <Link to="/retail">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Grande distribution
+                              </li>
+                            </Link>
+                            <Link to="/florist">
+                              <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Fleuristes
+                              </li>
+                            </Link>
+                            <Link to="/largeErea">
+                              <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                                 Grande surface spécialisées
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/trade">Commerce indépendant</Link>
-                            </li>
+                              </li>
+                            </Link>
+                            <Link to="/trade">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Commerce indépendant
+                              </li>
+                            </Link>
                           </ul>
                         </div>
                       </div>
@@ -75,19 +81,21 @@ export default function Consommateurs() {
                         </div>
                         <div className="font-medium">
                           <ul>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/fromYourStore">
+                            <Link to="/fromYourStore">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                                 Depuis votre magasin
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/betweenYourStore">
+                              </li>
+                            </Link>
+                            <Link to="/betweenYourStore">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                                 Entre vos magasins
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/chariot">En lachet de Chariot</Link>
-                            </li>
+                              </li>
+                            </Link>
+                            <Link to="/chariot">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                En lachet de Chariot
+                              </li>
+                            </Link>
                           </ul>
                         </div>
                       </div>
@@ -97,14 +105,16 @@ export default function Consommateurs() {
                         </div>
                         <div className="font-medium">
                           <ul>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/interface">
+                            <Link to="/interface">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                                 Interface professionnelle et Api
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/tarifs"> Tarifs</Link>
-                            </li>
+                              </li>
+                            </Link>
+                            <Link to="/tarifs">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Tarifs
+                              </li>
+                            </Link>
                           </ul>
                         </div>
                       </div>
@@ -124,14 +134,16 @@ export default function Consommateurs() {
                       className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
                     >
                       <ul>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/cotransporteur">
+                        <Link to="/cotransporteur">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                             Devenir cotransporteur
-                          </Link>
-                        </li>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/communauté">La communauté</Link>
-                        </li>
+                          </li>
+                        </Link>
+                        <Link to="/communauté">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            La communauté
+                          </li>
+                        </Link>
                       </ul>
                     </div>
                   </div>
@@ -152,12 +164,16 @@ export default function Consommateurs() {
                       className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
                     >
                       <ul>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/career">Carrières</Link>
-                        </li>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/faq">FAQ</Link>
-                        </li>
+                        <Link to="/career">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            Carrières
+                          </li>
+                        </Link>
+                        <Link to="/faq">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            FAQ
+                          </li>
+                        </Link>
                       </ul>
                     </div>
                   </div>
@@ -166,15 +182,15 @@ export default function Consommateurs() {
                   <div className="dropdown dropdown-left dropdown-hover">
                     <label
                       tabIndex={0}
-                      className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white"
+                      className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
                     >
-                      Devenez magasin partenaire
+                      Ça m'intérresse
                     </label>
                     <div
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                      <div className="w-1/2 bg-[#4D148C] text-white rounded-md p-8">
+                      <div className="w-1/2 bg-[#db6013] text-white rounded-md p-8">
                         <h1>Bienvenue parmis nous</h1>
                         <br />
                         <p>
@@ -429,7 +445,7 @@ export default function Consommateurs() {
               <div className="border-t  py-4 px-12 border-gray-200">
                 <div className="flex justify-between items-center cursor-pointer">
                   <p className="font-medium leading-4 text-[#4D148C]">
-                  <Link to="/consommateurs">consommateurs</Link>
+                    <Link to="/consommateurs">consommateurs</Link>
                   </p>
                 </div>
               </div>
@@ -595,50 +611,50 @@ export default function Consommateurs() {
             </li>
           </ul>
         </div>
-        <HeroCons/>
+        <HeroCons />
         {/*Navbar  END*/}
       </section>
-      <Content/>
-      <Footer/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-       <br className="supp"/>
-      <AppFooter/>
+      <Content />
+      <Footer />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <br className="supp" />
+      <AppFooter />
     </>
   );
 }

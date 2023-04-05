@@ -46,7 +46,9 @@ export default function HeroCa() {
               vêtement, etc.), en échange de quelques sous.
               <br />
               <br />
-              Notre ambition est d’offrir un service de livraison accessible dans les zones urbaines et rurales, tout en promouvant la proximité et l’assistance quotidienne.
+              Notre ambition est d’offrir un service de livraison accessible
+              dans les zones urbaines et rurales, tout en promouvant la
+              proximité et l’assistance quotidienne.
             </p>
           </div>
         </div>

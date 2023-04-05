@@ -41,20 +41,26 @@ export default function Navbar() {
                       </div>
                       <div className="font-meduim">
                         <ul>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/retail">Grande distribution</Link>
-                          </li>
-                          <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/florist">Fleuristes</Link>
-                          </li>
-                          <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/largeErea">
+                          <Link to="/retail">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Grande distribution
+                            </li>
+                          </Link>
+                          <Link to="/florist">
+                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Fleuristes
+                            </li>
+                          </Link>
+                          <Link to="/largeErea">
+                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                               Grande surface spécialisées
-                            </Link>
-                          </li>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/trade">Commerce indépendant</Link>
-                          </li>
+                            </li>
+                          </Link>
+                          <Link to="/trade">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Commerce indépendant
+                            </li>
+                          </Link>
                         </ul>
                       </div>
                     </div>
@@ -64,19 +70,21 @@ export default function Navbar() {
                       </div>
                       <div className="font-medium">
                         <ul>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/fromYourStore">
+                          <Link to="/fromYourStore">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                               Depuis votre magasin
-                            </Link>
-                          </li>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/betweenYourStore">
+                            </li>
+                          </Link>
+                          <Link to="/betweenYourStore">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                               Entre vos magasins
-                            </Link>
-                          </li>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/chariot">En lachet de Chariot</Link>
-                          </li>
+                            </li>
+                          </Link>
+                          <Link to="/chariot">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              En lachet de Chariot
+                            </li>
+                          </Link>
                         </ul>
                       </div>
                     </div>
@@ -86,14 +94,16 @@ export default function Navbar() {
                       </div>
                       <div className="font-medium">
                         <ul>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/interface">
+                          <Link to="/interface">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
                               Interface professionnelle et Api
-                            </Link>
-                          </li>
-                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                            <Link to="/tarifs"> Tarifs</Link>
-                          </li>
+                            </li>
+                          </Link>
+                          <Link to="/tarifs">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Tarifs
+                            </li>
+                          </Link>
                         </ul>
                       </div>
                     </div>
@@ -113,12 +123,16 @@ export default function Navbar() {
                     className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
                   >
                     <ul>
-                      <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                        <Link to="/cotransporteur">Devenir cotransporteur</Link>
-                      </li>
-                      <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                        <Link to="/communauté">La communauté</Link>
-                      </li>
+                      <Link to="/cotransporteur">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          Devenir cotransporteur
+                        </li>
+                      </Link>
+                      <Link to="/communauté">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          La communauté
+                        </li>
+                      </Link>
                     </ul>
                   </div>
                 </div>
@@ -139,12 +153,16 @@ export default function Navbar() {
                     className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
                   >
                     <ul>
-                      <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                        <Link to="/career">Carrières</Link>
-                      </li>
-                      <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                        <Link to="/faq">FAQ</Link>
-                      </li>
+                      <Link to="/career">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          Carrières
+                        </li>
+                      </Link>
+                      <Link to="/faq">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          FAQ
+                        </li>
+                      </Link>
                     </ul>
                   </div>
                 </div>

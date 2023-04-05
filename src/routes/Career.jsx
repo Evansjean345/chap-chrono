@@ -30,23 +30,164 @@ export default function Career() {
               </Link>
             </div>
             <div className="w-[88%] font-medium">
-              <ul className="flex justify-between mt-12 ">
-                <li className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1 ml-14 font-extrabold">
-                  <Link to="/">Site web</Link>
+              <ul className="flex justify-evenly mt-12 ">
+                <li>
+                  <div className="dropdown dropdown-hover">
+                    <label
+                      tabIndex={0}
+                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                    >
+                      Commercants
+                    </label>
+                    <div
+                      tabIndex={0}
+                      className="dropdown-content shadow bg-base-100 rounded-box w-[750px] flex justify-between px-4 py-8"
+                    >
+                      <div className="p-4">
+                        <div className="font-thin mb-4 text-[#db6013]">
+                          SECTEUR D'ACTIVITES
+                        </div>
+                        <div className="font-meduim">
+                          <ul>
+                            <Link to="/retail">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Grande distribution
+                              </li>
+                            </Link>
+                            <Link to="/florist">
+                              <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Fleuristes
+                              </li>
+                            </Link>
+                            <Link to="/largeErea">
+                              <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Grande surface spécialisées
+                              </li>
+                            </Link>
+                            <Link to="/trade">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Commerce indépendant
+                              </li>
+                            </Link>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="border-l-2 border-gray-100 p-4">
+                        <div className="font-thin mb-4 text-[#db6013]">
+                          SERVICE DE LIVRAISON
+                        </div>
+                        <div className="font-medium">
+                          <ul>
+                            <Link to="/fromYourStore">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Depuis votre magasin
+                              </li>
+                            </Link>
+                            <Link to="/betweenYourStore">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Entre vos magasins
+                              </li>
+                            </Link>
+                            <Link to="/chariot">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                En lachet de Chariot
+                              </li>
+                            </Link>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="border-l-2 border-gray-100 p-4">
+                        <div className="font-thin mb-4 text-[#db6013]">
+                          SOLUTION
+                        </div>
+                        <div className="font-medium">
+                          <ul>
+                            <Link to="/interface">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Interface professionnelle et Api
+                              </li>
+                            </Link>
+                            <Link to="/tarifs">
+                              <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                                Tarifs
+                              </li>
+                            </Link>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </li>
-                <li className="mr-[78px]">
+                <li>
+                  <div className="dropdown dropdown-hover">
+                    <label
+                      tabIndex={0}
+                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                    >
+                      Cotransporteur
+                    </label>
+                    <div
+                      tabIndex={0}
+                      className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
+                    >
+                      <ul>
+                        <Link to="/cotransporteur">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            Devenir cotransporteur
+                          </li>
+                        </Link>
+                        <Link to="/communauté">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            La communauté
+                          </li>
+                        </Link>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1">
+                  <Link to="/consommateurs"> consommateurs</Link>
+                </li>
+                <li>
+                  <div className="dropdown dropdown-hover mt-1">
+                    <label
+                      tabIndex={0}
+                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                    >
+                      L'aventure
+                    </label>
+                    <div
+                      tabIndex={0}
+                      className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
+                    >
+                      <ul>
+                        <Link to="/career">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            Carrières
+                          </li>
+                        </Link>
+                        <Link to="/faq">
+                          <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                            FAQ
+                          </li>
+                        </Link>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
                   <div className="dropdown dropdown-left dropdown-hover">
                     <label
                       tabIndex={0}
-                      className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white"
+                      className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
                     >
-                      Voir nos offres
+                      Ça m'intérresse
                     </label>
                     <div
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                      <div className="w-1/2 bg-[#4D148C] text-white rounded-md p-8">
+                      <div className="w-1/2 bg-[#db6013] text-white rounded-md p-8">
                         <h1>Bienvenue parmis nous</h1>
                         <br />
                         <p>

@@ -32,218 +32,234 @@ export default function Cotransporteur() {
               </Link>
             </div>
             <div className="w-[88%] font-medium">
-              <ul className="flex justify-evenly mt-12 ">
-                <li>
-                  <div className="dropdown dropdown-hover">
-                    <label
-                      tabIndex={0}
-                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
-                    >
-                      Commercants
-                    </label>
-                    <div
-                      tabIndex={0}
-                      className="dropdown-content shadow bg-base-100 rounded-box w-[750px] flex justify-between px-4 py-8"
-                    >
-                      <div className="p-4">
-                        <div className="font-thin mb-4 text-[#db6013]">
-                          SECTEUR D'ACTIVITES
-                        </div>
-                        <div className="font-meduim">
-                          <ul>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/retail">Grande distribution</Link>
-                            </li>
-                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/florist">Fleuristes</Link>
-                            </li>
-                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/largeErea">
-                                Grande surface spécialisées
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/trade">Commerce indépendant</Link>
-                            </li>
-                          </ul>
-                        </div>
+            <ul className="flex justify-evenly mt-12 ">
+              <li>
+                <div className="dropdown dropdown-hover">
+                  <label
+                    tabIndex={0}
+                    className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                  >
+                    Commercants
+                  </label>
+                  <div
+                    tabIndex={0}
+                    className="dropdown-content shadow bg-base-100 rounded-box w-[750px] flex justify-between px-4 py-8"
+                  >
+                    <div className="p-4">
+                      <div className="font-thin mb-4 text-[#db6013]">
+                        SECTEUR D'ACTIVITES
                       </div>
-                      <div className="border-l-2 border-gray-100 p-4">
-                        <div className="font-thin mb-4 text-[#db6013]">
-                          SERVICE DE LIVRAISON
-                        </div>
-                        <div className="font-medium">
-                          <ul>
+                      <div className="font-meduim">
+                        <ul>
+                          <Link to="/retail">
                             <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/fromYourStore">
-                                Depuis votre magasin
-                              </Link>
+                              Grande distribution
                             </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/betweenYourStore">
-                                Entre vos magasins
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/chariot">En lachet de Chariot</Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="border-l-2 border-gray-100 p-4">
-                        <div className="font-thin mb-4 text-[#db6013]">
-                          SOLUTION
-                        </div>
-                        <div className="font-medium">
-                          <ul>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/interface">
-                                Interface professionnelle et Api
-                              </Link>
-                            </li>
-                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                              <Link to="/tarifs"> Tarifs</Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="dropdown dropdown-hover">
-                    <label
-                      tabIndex={0}
-                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
-                    >
-                      Cotransporteur
-                    </label>
-                    <div
-                      tabIndex={0}
-                      className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
-                    >
-                      <ul>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/cotransporteur">
-                            Devenir cotransporteur
                           </Link>
-                        </li>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/communauté">La communauté</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1">
-                  <Link to="/consommateurs"> consommateurs</Link>
-                </li>
-                <li>
-                  <div className="dropdown dropdown-hover mt-1">
-                    <label
-                      tabIndex={0}
-                      className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
-                    >
-                      L'aventure
-                    </label>
-                    <div
-                      tabIndex={0}
-                      className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
-                    >
-                      <ul>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/career">Carrières</Link>
-                        </li>
-                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
-                          <Link to="/faq">FAQ</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="dropdown dropdown-left dropdown-hover">
-                    <label
-                      tabIndex={0}
-                      className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
-                    >
-                      Ça m'intérresse
-                    </label>
-                    <div
-                      tabIndex={0}
-                      className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
-                    >
-                      <div className="w-1/2 bg-[#db6013] text-white rounded-md p-8">
-                        <h1>Bienvenue parmis nous</h1>
-                        <br />
-                        <p>
-                          {" "}
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Consectetur provident hic quam, assumenda nihil
-                          nulla eum
-                        </p>
-                        <br />
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Consectetur provident hic quam, assumenda nihil
-                          nulla eum
-                        </p>
+                          <Link to="/florist">
+                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Fleuristes
+                            </li>
+                          </Link>
+                          <Link to="/largeErea">
+                            <li className="pb-2  hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Grande surface spécialisées
+                            </li>
+                          </Link>
+                          <Link to="/trade">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Commerce indépendant
+                            </li>
+                          </Link>
+                        </ul>
                       </div>
-                      <div className="w-1/2 p-8 ">
+                    </div>
+                    <div className="border-l-2 border-gray-100 p-4">
+                      <div className="font-thin mb-4 text-[#db6013]">
+                        SERVICE DE LIVRAISON
+                      </div>
+                      <div className="font-medium">
+                        <ul>
+                          <Link to="/fromYourStore">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Depuis votre magasin
+                            </li>
+                          </Link>
+                          <Link to="/betweenYourStore">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Entre vos magasins
+                            </li>
+                          </Link>
+                          <Link to="/chariot">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              En lachet de Chariot
+                            </li>
+                          </Link>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="border-l-2 border-gray-100 p-4">
+                      <div className="font-thin mb-4 text-[#db6013]">
+                        SOLUTION
+                      </div>
+                      <div className="font-medium">
+                        <ul>
+                          <Link to="/interface">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Interface professionnelle et Api
+                            </li>
+                          </Link>
+                          <Link to="/tarifs">
+                            <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                              Tarifs
+                            </li>
+                          </Link>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="dropdown dropdown-hover">
+                  <label
+                    tabIndex={0}
+                    className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                  >
+                    Cotransporteur
+                  </label>
+                  <div
+                    tabIndex={0}
+                    className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
+                  >
+                    <ul>
+                      <Link to="/cotransporteur">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          Devenir cotransporteur
+                        </li>
+                      </Link>
+                      <Link to="/communauté">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          La communauté
+                        </li>
+                      </Link>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1">
+                <Link to="/consommateurs"> consommateurs</Link>
+              </li>
+              <li>
+                <div className="dropdown dropdown-hover mt-1">
+                  <label
+                    tabIndex={0}
+                    className="hover:bg-[#22282a1d] text-[#4D148C] rounded-md p-1"
+                  >
+                    L'aventure
+                  </label>
+                  <div
+                    tabIndex={0}
+                    className="dropdown-content shadow bg-base-100 rounded-box w-[300px] flex justify-center px-8 py-8"
+                  >
+                    <ul>
+                      <Link to="/career">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          Carrières
+                        </li>
+                      </Link>
+                      <Link to="/faq">
+                        <li className="pb-2 hover:translate-x-[-10px] hover:translate-y-[-2px] hover:text-[#4D148C] transition-all">
+                          FAQ
+                        </li>
+                      </Link>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="dropdown dropdown-left dropdown-hover">
+                  <label
+                    tabIndex={0}
+                    className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+                  >
+                    Ça m'intérresse
+                  </label>
+                  <div
+                    tabIndex={0}
+                    className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
+                  >
+                    <div className="w-1/2 bg-[#db6013] text-white rounded-md p-8">
+                      <h1>Bienvenue parmis nous</h1>
+                      <br />
+                      <p>
+                        {" "}
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consectetur provident hic quam, assumenda nihil nulla
+                        eum
+                      </p>
+                      <br />
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consectetur provident hic quam, assumenda nihil nulla
+                        eum
+                      </p>
+                    </div>
+                    <div className="w-1/2 p-8 ">
+                      <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
+                        <div className=" w-[20%] p-2">
+                          <img src="/user.png" alt="" className="" />
+                        </div>
+                        <div className="w-[80%] p-2 font-light">
+                          <Link to="/particulier">
+                            <h6 className="text-sm font-semibold text-[#4D148C]">
+                              je suis un particulier ,
+                            </h6>
+                            <p className="text-xs">
+                              intéressé pour devenir cotransporteur.
+                            </p>
+                          </Link>
+                        </div>
+                      </div>
+                      <div>
                         <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
                           <div className=" w-[20%] p-2">
-                            <img src="/user.png" alt="" className="" />
+                            <img src="/boutique.png" alt="" className="" />
                           </div>
                           <div className="w-[80%] p-2 font-light">
-                            <Link to="/particulier">
+                            <Link to="/commercant">
                               <h6 className="text-sm font-semibold text-[#4D148C]">
-                                je suis un particulier ,
+                                je suis un commerçant ,
                               </h6>
                               <p className="text-xs">
-                                intéressé pour devenir cotransporteur.
+                                intéressé pour devenir commerçant partenaire.
                               </p>
                             </Link>
                           </div>
                         </div>
-                        <div>
-                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
-                            <div className=" w-[20%] p-2">
-                              <img src="/boutique.png" alt="" className="" />
-                            </div>
-                            <div className="w-[80%] p-2 font-light">
-                              <Link to="/commercant">
-                                <h6 className="text-sm font-semibold text-[#4D148C]">
-                                  je suis un commerçant ,
-                                </h6>
-                                <p className="text-xs">
-                                  intéressé pour devenir commerçant partenaire.
-                                </p>
-                              </Link>
-                            </div>
+                      </div>
+                      <div>
+                        <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C]">
+                          <div className=" w-[20%] p-2">
+                            <img src="/coeur.png" alt="" className="" />
                           </div>
-                        </div>
-                        <div>
-                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C]">
-                            <div className=" w-[20%] p-2">
-                              <img src="/coeur.png" alt="" className="" />
-                            </div>
-                            <div className="w-[80%] p-2 font-light">
-                              <Link to="/other">
-                                <h6 className="text-sm font-semibold text-[#4D148C]">
-                                  ni l'un ni l'autre ,
-                                </h6>
-                                <p className="text-xs">
-                                  je souhaite prendre contact avec l'equipe.
-                                </p>
-                              </Link>
-                            </div>
+                          <div className="w-[80%] p-2 font-light">
+                            <Link to="/other">
+                              <h6 className="text-sm font-semibold text-[#4D148C]">
+                                ni l'un ni l'autre ,
+                              </h6>
+                              <p className="text-xs">
+                                je souhaite prendre contact avec l'equipe.
+                              </p>
+                            </Link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </li>
-              </ul>
+                </div>
+              </li>
+            </ul>
             </div>
           </nav>
         </NavLink>

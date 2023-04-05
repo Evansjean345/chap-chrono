@@ -15,10 +15,12 @@ import Chariot from "./routes/Chariot";
 import Florist from "./routes/Florist";
 import Interface from "./routes/Interface";
 import Tarif from "./routes/Tarif";
+import ScrollToTop from "./assets/ScrollToTop";
 
 function App() {
   return (
     <div className="App bg-white m-0 p-0">
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/retail" element={<Retail />} />
