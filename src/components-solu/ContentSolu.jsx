@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Partner from "../components/Partner";
 
 export default function ContentSolu() {
   const [show, setShow] = useState(false);
@@ -36,7 +37,7 @@ export default function ContentSolu() {
       </div>
       <div className="w-full  flex-col md:flex-row flex flex-wrap justify-center bg-white lg:mt-0 lg:p-12 lg:pt-0">
         <div className="order-2 h-full md:w-1/2 w-full lg:pl-0  lg:p-12">
-          <div className="lg:p-4 p-10">
+          <div className="lg:p-4 p-10 sm:mt-16">
             <ul className="sm:mt-24 text-black">
               <li className="mt-3">
                 <div className="flex">
@@ -194,52 +195,7 @@ export default function ContentSolu() {
         </div>
       </div>
       {/* Patner */}
-      <div className="partner-container flex justify-center bg-[#EFEFF2] h-[223px] w-full p-[35px]">
-        <div className=" flex p-[25px] justify-center bg-none h-[128px] w-full ">
-          <ul className="list-partner flex">
-            <li>
-              <img
-                src="/logo/logo-one.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-logo.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-four.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[84px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-two.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-three.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Partner/>
       {/**FAQ */}
       <div className="w-full flex justify-center">
         <strong className="lg:text-[35px] text-3xl text-center p-12 tracking-[0.27px] text-[#21264D] drop-shadow-lg">

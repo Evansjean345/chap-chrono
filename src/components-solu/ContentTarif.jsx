@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Form from "../api/Form";
 
 export default function ContentTarif() {
   return (
@@ -98,10 +99,11 @@ export default function ContentTarif() {
       <div className="sm:p-24 p-6 flex items-center justify-center">
         <table className="border-spacing-2 text-black">
           <thead className="border-collapse w-full border-2 border-solid bg-[#EFEFF2]">
-            <tr>
+            <tr className="bg-[#EFEFF2]">
               <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
                 LES ESSENTIELS
               </th>
+              <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]"></th>
             </tr>
           </thead>
           <tbody className="w-full border-collapse border-2 border-solid">
@@ -159,10 +161,11 @@ export default function ContentTarif() {
       <div className="sm:p-24 p-6 flex items-center justify-center">
         <table className="border-spacing-2 text-black">
           <thead className="border-collapse w-full border-2 border-solid bg-[#EFEFF2]">
-            <tr>
+            <tr className="bg-[#EFEFF2]">
               <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
                 GESTION DES LIVRAISONS
               </th>
+              <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]"></th>
             </tr>
           </thead>
           <tbody className="w-full border-collapse border-2 border-solid">
@@ -233,10 +236,11 @@ export default function ContentTarif() {
       <div className="sm:p-24 p-6 flex items-center justify-center">
         <table className="border-spacing-2 text-black">
           <thead className="border-collapse w-full border-2 border-solid bg-[#EFEFF2]">
-            <tr>
+            <tr className="bg-[#EFEFF2]">
               <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
                 MARKETING & COMMUNICATION
               </th>
+              <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]"></th>
             </tr>
           </thead>
           <tbody className="w-full border-collapse border-2 border-solid">
@@ -281,10 +285,11 @@ export default function ContentTarif() {
       <div className="sm:p-24 p-6 flex items-center justify-center">
         <table className="border-spacing-2 text-black">
           <thead className="border-collapse w-full border-2 border-solid bg-[#EFEFF2]">
-            <tr>
+            <tr className="bg-[#EFEFF2]">
               <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]">
                 ACCOMPAGNEMENT & SUPPORT
               </th>
+              <th className="table-cell p-[10px] sm:p-[20px] text-[#21264D]"></th>
             </tr>
           </thead>
           <tbody className="w-full border-collapse border-2 border-solid">
@@ -329,152 +334,8 @@ export default function ContentTarif() {
           </tbody>
         </table>
       </div>
-      {/* Contact */}
-      <section class="bg-[#4D148C] text-black">
-        <div class="container px-6 py-12 mx-auto">
-          <div class="lg:flex lg:items-center lg:-mx-6">
-            <div class="lg:w-1/2 lg:mx-6 lg:mb-80 text-white">
-              <h1 class="text-3xl font-semibold  capitalizetext-white lg:text-5xl">
-                Nos équipes sont ici
-                <br />
-                pour vous conseiller sur
-                <br />
-                nos tarifs.
-              </h1>
-
-              <div class="mt-6 space-y-8 md:mt-8">
-                <p class="flex items-start -mx-2 p-6">
-                  Vous avez deszones d'ombres sur l'utilisation de l'interface
-                  Chapchrono ou nos tarifs ? Contactez-nous !
-                </p>
-              </div>
-            </div>
-            {/* Forùm */}
-            <div class="mt-8 lg:w-1/2 lg:mx-6">
-              <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50 ">
-                <h1 class="text-3xl font-semibold  capitalizetext-white lg:text-3xl text-black">
-                  Devenez Partenaire
-                </h1>
-
-                <form class="mt-6">
-                  <div class="flex-1">
-                    <input
-                      id="tel"
-                      name="number"
-                      type="text"
-                      placeholder="vous etes un... *"
-                      class="rounded-full block w-full px-5 py-3 mt-2 bg-white text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                      required
-                    />
-                  </div>
-                  <br/>
-                  <br/>
-                  <div class="flex-1">
-                    <div className="flex space-x-3">
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="type de commerce"
-                        class="rounded-full bg-white block w-1/2 px-5 py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="type de commerce"
-                        class="rounded-full bg-white block w-1/2 px-5 py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <br/>
-                  <br/>
-                  <div class="flex-1">
-                    <div className="flex space-x-3">
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="nom"
-                        class="rounded-full bg-white block w-1/2 px-5 py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="prénom"
-                        class="rounded-full bg-white block w-1/2 px-5 py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <br />
-                  <div class="flex-1">
-                    <div className="flex space-x-3">
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="email"
-                        class="rounded-full block w-1/2 px-5 py-3 mt-2 bg-white text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="numéro de téléphone"
-                        class="rounded-full block w-1/2 px-5 py-3 mt-2 bg-white text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <br/>
-                  <br/>
-                  <div class="flex-1">
-                    <div className="flex space-x-3">
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="nom de l'entreprise"
-                        class="rounded-full block w-1/2 px-5 py-3 mt-2 bg-white text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                      <input
-                        id="name"
-                        name="from_name"
-                        type="text"
-                        placeholder="code postal"
-                        class="rounded-full block w-1/2 bg-white px-5 py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div class="w-full mt-6">
-                    <label class="block mb-2 text-sm text-white font-semibold">
-                      Message
-                    </label>
-                    <textarea
-                      class="rounded-3xl block w-full h-32 px-5 bg-white py-3 mt-2 text-gray-300 placeholder-gray-400  border border-gray-200  md:h-48 dark:placeholder-gray-600 bg-black-900  dark:border-gray-700 focus:border-red-700 dark:focus:border-red-700 focus:ring-red-700 focus:outline-none focus:ring focus:ring-opacity-40"
-                      placeholder="Message"
-                      required
-                      name="message"
-                    ></textarea>
-                  </div>
-
-                  <button class="rounded-full w-1/2 sm:ml-32 ml-20 px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#db6013]  hover:bg-white hover:text-black focus:outline-none focus:ring focus:ring-red-700 focus:ring-opacity-50">
-                    Envoyez
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Contact Form */}
+      <Form />
       {/* Content */}
       <div className="w-full flex-col md:flex-row flex flex-wrap justify-center bg-white  lg:p-12">
         <div className="hero-content-one  h-full md:w-1/2 w-full lg:pl-40">
@@ -500,7 +361,7 @@ export default function ContentTarif() {
             <Link to="/interface" className="mt-5">
               <label
                 tabIndex={0}
-                className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white  cursor-pointer"
+                className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 sm:px-10 text-white  cursor-pointer"
               >
                 Je découvre l'Interface Professionelle
               </label>

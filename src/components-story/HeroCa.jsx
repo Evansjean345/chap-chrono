@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import FormPost from "../api/FormPost";
 
 export default function HeroCa() {
   return (
@@ -34,7 +36,7 @@ export default function HeroCa() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#db6013] leading-10 drop-shadow-lg">
               Notre mission ? faire evoluer la livraison
             </strong>
-            <p className="text-[17px] mt-12">
+            <p className="text-[17px] mt-12 text-black">
               Chapchrono est une solution de livraison simple et collaborative
               qui offre à tous la possibilité d’optimiser leurs ressources
               (temps, et argent).
@@ -68,7 +70,7 @@ export default function HeroCa() {
             <strong className="lg:text-[35px] text-3xl text-start  tracking-[0.27px] text-[#21264D] leading-10 drop-shadow-lg">
               Notre mission ? faire evoluer la livraison
             </strong>
-            <p className="text-[17px] mt-12">
+            <p className="text-[17px] mt-12 text-black">
               Si vous voulez rejoindre une équipe qui est dynamique et engagée,
               vous êtes venu au bon endroit! Pendant les pauses, à vous de
               choisir votre camp : team sieste ou team jeux de
@@ -99,6 +101,22 @@ export default function HeroCa() {
             className="h-[300px] w-[500px]"
           />
         </div>
+      </div>
+      {/* Formulaire de recrutement */}
+      <FormPost />
+      {/* Content */}
+      <div className="flex flex-col justify-center items-center mb-12 bg-white h-[300px]">
+        <strong className="lg:text-[24px] text-[#FF6200] text-3xl text-center  tracking-[0.27px]  drop-shadow-lg">
+          vous souhaitez envoyé une candidature ?
+        </strong>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4u9UmyTqY7NXIvrZGug7aSn4uelmAMaKez9YtMmWMZ8AwWQ/viewform" className="mt-12">
+          <label
+            tabIndex={0}
+            className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white cursor-pointer"
+          >
+            Envoyez une candidature spontanée
+          </label>
+        </a>
       </div>
     </>
   );

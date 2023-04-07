@@ -16,11 +16,14 @@ import Florist from "./routes/Florist";
 import Interface from "./routes/Interface";
 import Tarif from "./routes/Tarif";
 import ScrollToTop from "./assets/ScrollToTop";
+import Commercant from "./routes/Commercant";
+import Other from "./routes/Other";
+import Particulier from "./routes/Particulier";
 
 function App() {
   return (
     <div className="App bg-white m-0 p-0">
-    <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/retail" element={<Retail />} />
@@ -37,6 +40,9 @@ function App() {
         <Route path="/florist" element={<Florist />} />
         <Route path="/interface" element={<Interface />} />
         <Route path="/tarifs" element={<Tarif />} />
+        <Route path="/commercant" element={<Commercant />} />
+        <Route path="/other" element={<Other />} />
+        <Route path="/particulier" element={<Particulier />} />
       </Routes>
     </div>
   );

@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import "../App.css";
+import ParticulierContent from "../components/ParticulierContent";
 
-export default function Navbar() {
+export default function Particulier() {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -13,7 +13,7 @@ export default function Navbar() {
   const [show2, setShow2] = useState(false);
   const [show3, setShow3] = useState(false);
   return (
-    <>
+    <div className="">
       <NavLink>
         <nav className="flex w-full h-[10vh] pt-8 bg-none" id="navLink">
           <div className="w-[12%] ml-20">
@@ -171,7 +171,7 @@ export default function Navbar() {
                 <div className="dropdown dropdown-left dropdown-hover">
                   <label
                     tabIndex={0}
-                    className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+                    className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white"
                   >
                     Ça m'intérresse
                   </label>
@@ -179,8 +179,8 @@ export default function Navbar() {
                     tabIndex={0}
                     className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                   >
-                    <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
-                      <h1>Bienvenue parmi nous,</h1>
+                   <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
+                    <h1>Bienvenue parmi nous,</h1>
                       <br />
                       <p>
                         Nous sommes Chapchrono. Et nous avons à cœur de
@@ -263,9 +263,7 @@ export default function Navbar() {
       {/*Nav-mobile */}
       <NavLink className="nav-res justify-between w-full flex z-30 pr-5 md:mt-10">
         <div className="md:w-[20%] w-[30%]">
-          <Link to="/">
-            <img src="/logo.png" alt="" />
-          </Link>
+          <img src="/logo.png" alt="" />
         </div>
         <div className="w-[10%] flex justify-end md:p-5">
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -433,10 +431,10 @@ export default function Navbar() {
             </div>
           </li>
           <li className="md:px-16 px-4">
-            <div className="border-t py-4 px-12 border-gray-200">
+            <div className="border-t  py-4 px-12 border-gray-200">
               <div className="flex justify-between items-center cursor-pointer">
                 <p className="font-medium leading-4 text-[#4D148C]">
-                  <Link to="consommateurs">consommateurs</Link>
+                  <Link to="/consommateurs">consommateurs</Link>
                 </p>
               </div>
             </div>
@@ -602,6 +600,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-    </>
+      <ParticulierContent/>
+    </div>
   );
 }

@@ -190,22 +190,29 @@ export default function Florist() {
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                      <div className="w-1/2 bg-[#db6013] text-white rounded-md p-8">
-                        <h1>Bienvenue parmis nous</h1>
-                        <br />
-                        <p>
-                          {" "}
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Consectetur provident hic quam, assumenda nihil
-                          nulla eum
-                        </p>
-                        <br />
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Consectetur provident hic quam, assumenda nihil
-                          nulla eum
-                        </p>
-                      </div>
+                       <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
+                    <h1>Bienvenue parmi nous,</h1>
+                      <br />
+                      <p>
+                        Nous sommes Chapchrono. Et nous avons à cœur de
+                        réinventer la livraison en privilégiant l'entraide et le
+                        partage. Nous avons mis en place notre solution de
+                        transport public en alliant le meilleur de la
+                        technologie et du bon sens humain.
+                      </p>
+                      <br />
+                      <p>
+                        Au cœur de la grande communauté Chapchrono se trouvent
+                        des particuliers, appelés cotransporteurs, qui
+                        effectuent leurs trajets réguliers pour livrer pour
+                        quelques euros.
+                      </p>
+                      <br />
+                      <p>
+                        Si vous voulez en savoir plus et nous contacter,
+                        dites-nous qui vous êtes !
+                      </p>
+                    </div>
                       <div className="w-1/2 p-8 ">
                         <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
                           <div className=" w-[20%] p-2">

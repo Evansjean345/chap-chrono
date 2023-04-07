@@ -9,7 +9,7 @@ export default function Partner() {
           <ul className="list-partner flex">
             <li>
               <img
-                src="/logo/logo-one.png"
+                src="/logo-partner/partner-express-glob.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[64px] m-[25px]"
@@ -17,7 +17,7 @@ export default function Partner() {
             </li>
             <li>
               <img
-                src="/logo/logo-logo.png"
+                src="/logo-partner/partner-lion.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[64px] m-[25px]"
@@ -25,26 +25,10 @@ export default function Partner() {
             </li>
             <li>
               <img
-                src="/logo/logo-four.png"
+                src="/logo-partner/partner-rue.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[84px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-two.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-three.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
               />
             </li>
           </ul>

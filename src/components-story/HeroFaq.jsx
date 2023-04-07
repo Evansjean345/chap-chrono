@@ -5,7 +5,11 @@ export default function HeroFaq() {
     <>
       <div className="w-full flex-col bg-[#EFEFF2] sm:flex-row flex flex-wrap items-center justify-center bg-none lg:mt-10  lg:p-12 py-28">
         <div className="sm:w-[20%] w-full h-full flex items-center justify-center">
-          <img src="/logo/icon-left.png" alt="" className="h-[179px] w-[317px]" />
+          <img
+            src="/logo/icon-left.png"
+            alt=""
+            className="h-[179px] w-[317px]"
+          />
         </div>
         <div className="sm:w-[60%] w-full">
           <div className="h-full  w-full  sm:pt-10 lg:pt-20">
@@ -24,7 +28,11 @@ export default function HeroFaq() {
           </div>
         </div>
         <div className="sm:w-[20%] w-full h-full flex items-center justify-center">
-          <img src="/logo/icon-right.png" alt="" className="h-[179px] w-[317px] " />
+          <img
+            src="/logo/icon-right.png"
+            alt=""
+            className="h-[179px] w-[317px] "
+          />
         </div>
       </div>
       {/*** Content Card */}
@@ -48,10 +56,10 @@ export default function HeroFaq() {
                       attentifs
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Vous êtes un commerçant partenaire ou souhaitez le devenir
+                      et proposer la livraison en cotransportage à vos clients ?
+                      Trouvez des réponses à toutes vos questions dans cette
+                      catégorie!
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
                       vous en etes ou ?
@@ -77,10 +85,9 @@ export default function HeroFaq() {
                       attentifs
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Êtes-vous un cotransporter ou voulez-vous devenir un?
+                      trouver des réponses à toutes vos questions dans cette
+                      catégorie!
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
                       vous en etes ou ?
@@ -106,10 +113,9 @@ export default function HeroFaq() {
                       attentifs
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque et ducimus reiciendis magnam vero minus explicabo
-                      quaerat, dicta obcaecati voluptas delectus nostrum tempore
-                      amet adipisci id? Facilis soluta corporis ipsum.
+                      Vous vous faites livrer par Chapchrono ou si vous avez des
+                      questions sur la livraison, vous trouverez les réponses
+                      que vous cherchez dans cette catégorie!
                     </p>
                     <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
                       vous en etes ou ?

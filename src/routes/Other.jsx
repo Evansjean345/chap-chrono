@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../App.css";
-import HeroCons from "../components-cons/HeroCons";
+import OtherHero from "../components/OtherHero";
 import bg from "../bg-cons.png";
-import Content from "../components-cons/Content";
+import OtherContent from "../components/OtherContent";
 import Footer from "../layouts/Footer";
 import AppFooter from "../layouts/AppFooter";
 
-export default function Consommateurs() {
+export default function Other() {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -182,16 +182,16 @@ export default function Consommateurs() {
                   <div className="dropdown dropdown-left dropdown-hover">
                     <label
                       tabIndex={0}
-                      className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+                      className="bg-[#4D148C] text-white rounded-full p-3 px-10 "
                     >
-                      Ça m'intérresse
+                      Devenez magasin partenaire
                     </label>
                     <div
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                      <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
-                      <h1>Bienvenue parmi nous,</h1>
+                       <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
+                    <h1>Bienvenue parmi nous,</h1>
                       <br />
                       <p>
                         Nous sommes Chapchrono. Et nous avons à cœur de
@@ -212,7 +212,7 @@ export default function Consommateurs() {
                         Si vous voulez en savoir plus et nous contacter,
                         dites-nous qui vous êtes !
                       </p>
-                      </div>
+                    </div>
                       <div className="w-1/2 p-8 ">
                         <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
                           <div className=" w-[20%] p-2">
@@ -618,10 +618,9 @@ export default function Consommateurs() {
             </li>
           </ul>
         </div>
-        <HeroCons />
-        {/*Navbar  END*/}
+        <OtherHero />
       </section>
-      <Content />
+      <OtherContent/>
       <Footer />
       <br className="supp" />
       <br className="supp" />

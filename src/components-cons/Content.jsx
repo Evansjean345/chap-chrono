@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Content() {
   return (
     <>
@@ -76,7 +77,7 @@ export default function Content() {
             </li>
           </ul>
         </div>
-        <br className="nav-res"/>
+        <br className="nav-res" />
         <div className="mt-[200px] flex-col flex justify-center items-center sm:mt-32">
           <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg sm:pt-16 lg:pt-0  text-center">
             La livraison, évoluée
@@ -91,15 +92,12 @@ export default function Content() {
         </div>
       </div>
       {/* Patner */}
-      <div className="partner-container flex-col flex justify-center bg-white h-[223px] w-full p-[35px] ">
-        <strong className="lg:text-[35px] text-3xl flex justify-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg sm:pt-16  lg:pt-8  text-center">
-          Partenaire de Chapchrono
-        </strong>
-        <div className=" flex p-[25px] justify-center bg-none h-[528px] w-full ">
+      <div className="partner-container-two flex-col flex items-center justify-center bg-white h-[323px] w-full p-[35px]">
+        <div className="partner-container-two flex p-[25px] justify-center bg-none h-[128px] w-full ">
           <ul className="list-partner flex">
             <li>
               <img
-                src="/logo/logo-one.png"
+                src="/logo-partner/partner-express-glob.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[64px] m-[25px]"
@@ -107,7 +105,7 @@ export default function Content() {
             </li>
             <li>
               <img
-                src="/logo/logo-logo.png"
+                src="/logo-partner/partner-lion.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[64px] m-[25px]"
@@ -115,26 +113,10 @@ export default function Content() {
             </li>
             <li>
               <img
-                src="/logo/logo-four.png"
+                src="/logo-partner/partner-rue.png"
                 alt=""
                 srcset=""
                 className="w-[160px] h-[84px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-two.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
-              />
-            </li>
-            <li>
-              <img
-                src="/logo/logo-three.png"
-                alt=""
-                srcset=""
-                className="w-[160px] h-[64px] m-[25px]"
               />
             </li>
           </ul>
