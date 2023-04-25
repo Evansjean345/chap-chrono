@@ -263,25 +263,25 @@ export default function ContentTwo() {
             id="slide1"
             className="carousel-item relative w-96 h-96 md:h-96 md:w-full"
           >
-            <div className="h-full w-full bg-white flex py-16 px-2 md:px-20 space-x-6 rounded-[54px] relative">
+            <div className="h-full w-full bg-white flex py-12 px-2 md:px-20 space-x-6 rounded-[54px] relative">
               <div className="w-[6%]">
                 <img src="/img-two/comma.png" alt="" className="h-12 w-12" />
               </div>
-              <p className="w-[60%] text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Delectus magnam, fugiat iusto eius dicta commodi aperiam totam
-                vitae
+              <p className="w-[60%] text-black text-start">
+              Le service de livraison est exceptionnel. Ils sont très professionnels
+               et assurent la livraison dans les délais impartis. Je suis très 
+               satisfait de leur service et je l'utilise tout le temps.
                 <br />
                 <br />
                 <strong className="text-[#4D148C]">
-                  Lorem ipsum, dolor sit
+                GÉRARD N. / DIRECTEUR
                 </strong>
                 <br />
-                Lorem ipsum, dolor sit
+                RMEXPRESSGLOB - ABIDJAN
               </p>
               <div className="w-[34%] rounded-[100%]">
                 <img
-                  src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  src="/card-img/a.png"
                   alt=""
                   className="h-64 w-72 rounded-[100%]"
                 />
@@ -324,21 +324,21 @@ export default function ContentTwo() {
               <div className="w-[6%]">
                 <img src="/img-two/comma.png" alt="" className="h-12 w-12" />
               </div>
-              <p className="w-[60%] text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Delectus magnam, fugiat iusto eius dicta commodi aperiam totam
-                vitae
+              <p className="w-[60%] text-black text-start">
+              J'ai découvert ce service de livraison récemment et j'ai été impressionné 
+              par leur professionnalisme. Ils ont livré mes clients dans les délais 
+              impartis, je recommande vivement leur service fiable et efficace.
                 <br />
                 <br />
                 <strong className="text-[#4D148C]">
-                  Lorem ipsum, dolor sit
+                  PATRICK A. / GÉRANT
                 </strong>
                 <br />
-                Lorem ipsum, dolor sit
+                JENNINGS LYON - COCODY
               </p>
               <div className="w-[34%] rounded-[100%]">
                 <img
-                  src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  src="/card-img/m.png"
                   alt=""
                   className="h-64 w-72 rounded-[100%]"
                 />
@@ -381,21 +381,21 @@ export default function ContentTwo() {
               <div className="w-[6%]">
                 <img src="/img-two/comma.png" alt="" className="h-12 w-12" />
               </div>
-              <p className="w-[60%] text-start">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Delectus magnam, fugiat iusto eius dicta commodi aperiam totam
-                vitae
+              <p className="w-[60%] text-black text-start">
+              Mes clients ont apprécié de recevoir leur commande très rapidement, 
+              j'utilise donc ce service pour les livrer. Je le recommande à toutes les 
+              personnes ayant besoin d'un service rapide et fiable.
                 <br />
                 <br />
                 <strong className="text-[#4D148C]">
-                  Lorem ipsum, dolor sit
+                  BRIGITTE K. / DIRECTRICE
                 </strong>
                 <br />
-                Lorem ipsum, dolor sit
+                RUEDUMARCHÉ - ANGRÉ
               </p>
               <div className="w-[34%] rounded-[100%]">
                 <img
-                  src="https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJ1aXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  src="/card-img/k.png"
                   alt=""
                   className="h-64 w-72 rounded-[100%]"
                 />

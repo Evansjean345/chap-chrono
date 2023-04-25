@@ -15,14 +15,10 @@ export default function HeroFaq() {
           <div className="h-full  w-full  sm:pt-10 lg:pt-20">
             <div className="lg:p-4 p-10 flex flex-col items-center justify-center">
               <strong className="md:text-[64px] text-[36px] text-gray-700 text-center md:leading-[78px] tracking-[0.27px]  drop-shadow-lg md:ml-0 md:mt-0 mt-4">
-                Le constransportage ?<br className="items-rounded" />
-                Vous aller l'apprécier
+              Comment pouvons-nous vous aider ?
               </strong>
               <p className="mt-6 text-center text-gray-700 text-[18px]">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
-                expedita omnis nemo possimus labore dolorum deserunt doloribus
-                amet consequuntur! Repellat adipisci minus earum enim dolores
-                eaque dolorem a quidem ex.
+              Vous trouverez ici toutes les réponses à vos questions
               </p>
             </div>
           </div>
@@ -51,18 +47,14 @@ export default function HeroFaq() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-8  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
+                    Vous êtes un
                       <br />
-                      attentifs
+                    commerçant partenaire
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Vous êtes un commerçant partenaire ou souhaitez le devenir
-                      et proposer la livraison en cotransportage à vos clients ?
-                      Trouvez des réponses à toutes vos questions dans cette
-                      catégorie!
-                    </p>
-                    <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                    Vous êtes un commerçant partenaire ou souhaitez le devenir et 
+                    proposer la livraison en cotransportage à vos clients ?
+                    Trouvez des réponses à toutes vos questions dans cette catégorie!
                     </p>
                   </div>
                 </div>
@@ -80,17 +72,14 @@ export default function HeroFaq() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-8  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
+                    Vous êtes un
                       <br />
-                      attentifs
+                    cotransporteur
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Êtes-vous un cotransporter ou voulez-vous devenir un?
-                      trouver des réponses à toutes vos questions dans cette
-                      catégorie!
-                    </p>
-                    <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                    Êtes-vous un cotransporteur ou voulez-vous devenir un? 
+                    trouver des réponses à toutes vos questions dans cette 
+                    catégorie!
                     </p>
                   </div>
                 </div>
@@ -108,17 +97,15 @@ export default function HeroFaq() {
                   </div>
                   <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                     <strong className="text-[17px] leading-normal mt-8  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                      Des commerçants
+                    Vous êtes un
                       <br />
-                      attentifs
+                    consommateur
                     </strong>
                     <p className="text-center text-[12px]   px-5 mt-2">
-                      Vous vous faites livrer par Chapchrono ou si vous avez des
-                      questions sur la livraison, vous trouverez les réponses
-                      que vous cherchez dans cette catégorie!
-                    </p>
-                    <p className="text-center text-[12px] mt-6 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                      vous en etes ou ?
+                    Vous vous faites livrer par <br />
+                    Chapchrono ou si vous avez des questions sur la livraison, 
+                    vous trouverez les réponses que vous cherchez dans cette 
+                    catégorie!
                     </p>
                   </div>
                 </div>

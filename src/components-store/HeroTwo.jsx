@@ -8,9 +8,9 @@ export default function HeroTwo() {
         <div className="h-full  w-full lg:pl-20 pt-10 lg:pt-12">
           <div className="lg:p-4 p-10 flex flex-col items-center justify-center">
             <strong className="md:text-[64px] text-[36px] text-center  text-white md:leading-[78px] tracking-[0.27px]  drop-shadow-lg md:ml-0 md:mt-0 mt-4">
-              Partagez vos stocks entre
+              Partagez vos stocks entre vos&nbsp;
               <br className="items-rounded" />
-              magasins avec la livraison
+              magasins avec la livraison&nbsp;
               <br className="items-rounded" />
               en cotransportage
             </strong>

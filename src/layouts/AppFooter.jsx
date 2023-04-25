@@ -6,7 +6,7 @@ export default function AppFooter() {
       <div className="app-footer w-full block flex-col lg:flex h-[30%] bg-[#4D148C] relative">
         <div className="bg-none w-full h-[100px] flex justify-between p-4">
           <div className="flex space-x-4">
-            <strong className="text-white">télécharger notre application</strong>
+            <p className="text-white">Télécharger notre application</p>
             <img
               src="/logo/app-store.png"
               alt=""
@@ -19,7 +19,7 @@ export default function AppFooter() {
             />
           </div>
           <div className="network-img flex bg-[#4D148C]">
-            <strong className="text-white">suivez nous sur les réseaux</strong>
+            <p className="text-white">Suivez nous sur les réseaux</p>
             <a class="text-white">
               <svg
                 fill="currentColor"

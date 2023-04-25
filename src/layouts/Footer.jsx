@@ -108,7 +108,7 @@ export default function Footer() {
                   Carrières
                 </li>
               </Link>
-              <Link to="/career">
+              <Link to="/other">
                 <li className="pb-4  hover:translate-x-[-10px] hover:translate-y-[-2px] text-white transition-all cursor-pointer">
                   Contact
                 </li>

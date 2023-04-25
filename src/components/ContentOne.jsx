@@ -89,7 +89,7 @@ export default function ContentOne() {
               soit pour aller travailler, rendre visite, ou une simple
               promenade. Alors et si tous ces voyages pouvaient également être
               utilisés pour faire des livraisons ? C'est l'idée derrière le
-              service de cotransportage de Chap Chrono. Il n'y a pas de coût
+              service de cotransportage de Chapchrono. Il n'y a pas de coût
               supplémentaire, nous utilisons les ressources existantes, et nous
               offrons une méthode de livraison alternative qui maintient tous
               les avantages de la livraison traditionnelle.

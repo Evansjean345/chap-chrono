@@ -25,7 +25,7 @@ export default function ContentTwo() {
                 tabIndex={0}
                 className="hover:bg-[#db6013] bg-[#FF6200] rounded-full  p-3 px-10 text-white  cursor-pointer"
               >
-                en savoir plus
+                En savoir plus
               </label>
             </Link>
           </div>
@@ -56,7 +56,7 @@ export default function ContentTwo() {
           Découvrez nos offres, posez vos questions sur notre service, nous
           sommes là pour répondre à vos interrogations.
         </p>
-        <Link to="/career" className="mt-5">
+        <Link to="/commercant" className="mt-5">
           <label
             tabIndex={0}
             className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white  cursor-pointer"

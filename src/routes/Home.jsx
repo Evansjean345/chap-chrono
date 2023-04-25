@@ -17,7 +17,7 @@ export default function Home() {
         style={{
           backgroundImage: `url(${homeIMG})`,
         }}
-        className="bg-cover bg-no-repeat"
+        className="bg-cover bg-no-repeat sm:bg-fixed"
       >
         <Navbar />
         <Hero />

@@ -269,6 +269,7 @@ export default function ContentSolu() {
                         alt=""
                         srcset=""
                         className="h-[85px] w-[85px] sm:ml-[290px] cursor-pointer"
+                        id="it"
                         onClick={() => {
                           setShow1(!show1);
                         }}
@@ -282,6 +283,7 @@ export default function ContentSolu() {
                         alt=""
                         srcset=""
                         className="h-[65px] w-[65px] sm:ml-[290px]"
+                        id="it"
                         onClick={() => {
                           setShow1(!show1);
                         }}
@@ -318,7 +320,7 @@ export default function ContentSolu() {
                         src="/logo/moins.png"
                         alt=""
                         srcset=""
-                        className="h-[85px] w-[85px] sm:ml-[360px] cursor-pointer ml-[30px]"
+                        className="items-tem h-[85px] w-[85px] sm:ml-[360px] cursor-pointer ml-[30px]"
                         onClick={() => {
                           setShow2(!show2);
                         }}
@@ -331,7 +333,7 @@ export default function ContentSolu() {
                         src="/logo/plus.png"
                         alt=""
                         srcset=""
-                        className="h-[65px] w-[65px] sm:ml-[360px] ml-[30px]"
+                        className="items-tem h-[65px] w-[65px] sm:ml-[360px] ml-[30px]"
                         onClick={() => {
                           setShow2(!show2);
                         }}
