@@ -196,7 +196,7 @@ export default function Retail() {
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                       <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
+                       <div className="w-1/2 bg-[#db6013] text-[13px] text-white rounded-md p-8">
                     <h1>Bienvenue parmi nous,</h1>
                       <br />
                       <p>

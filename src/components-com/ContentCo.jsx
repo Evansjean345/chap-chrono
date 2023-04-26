@@ -27,7 +27,7 @@ export default function ContentCo() {
                   livrés par des personnes qui les ressemblent.
                 </p>
                 <p className="text-center text-[12px] mt-8 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                  <Link to="/consommateurs">en savoir plus</Link>
+                  <Link to="/consommateurs">En savoir plus</Link>
                 </p>
               </div>
             </div>
@@ -45,16 +45,16 @@ export default function ContentCo() {
               </div>
               <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                 <strong className="text-[17px] leading-normal  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                  RENCONTREZ D'AUTRES
+                DEMANDEZ CONSEIL À LA 
                   <br />
-                  COTRANSPORTEURS
+                COMMUNAUTÉ
                 </strong>
                 <p className="text-center text-[12px]  text-black px-5 mt-8">
-                  Les consommateurs qui choisissent d’avoir leurs produits
-                  livrés par des personnes qui les ressemblent.
+                Interagissez avec notre communauté de cotransporteurs ! Ils partagent
+                leurs conseils et retours d’expérience.
                 </p>
                 <p className="text-center text-[12px] mt-8 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                  <Link to="/communauté">en savoir plus</Link>
+                  <Link to="/communauté">En savoir plus</Link>
                 </p>
               </div>
             </div>
@@ -72,16 +72,16 @@ export default function ContentCo() {
               </div>
               <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                 <strong className="text-[17px] leading-normal  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                  RENCONTREZ D'AUTRES
+                PARTAGEZ VOTRE
                   <br />
-                  COTRANSPORTEURS
+                EXPÉRIENCE
                 </strong>
                 <p className="text-center text-[12px]  text-black  px-5 mt-8">
-                  Les consommateurs qui choisissent d’avoir leurs produits
-                  livrés par des personnes qui les ressemblent.
+                Dans la communauté des cotransporteurs, l’entraide est de mise ! 
+                Partagez, vous aussi, votre propre expérience avec Chapchrono.
                 </p>
                 <p className="text-center text-[12px] mt-8 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                  <Link to="/communauté">vous en etes ou ?</Link>
+                  <Link to="/communauté">En savoir plus</Link>
                 </p>
               </div>
             </div>
@@ -99,16 +99,16 @@ export default function ContentCo() {
               </div>
               <div className="h-[65%] rounded-lg rounded-t-none flex flex-col items-center">
                 <strong className="text-[17px] leading-normal  text-center tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-                  RENCONTREZ D'AUTRES
+                SUIVEZ LES DERNIÈRES
                   <br />
-                  COTRANSPORTEURS
+                ACTUALITÉS
                 </strong>
                 <p className="text-center text-[12px] text-black  px-5 mt-8">
-                  Les consommateurs qui choisissent d’avoir leurs produits
-                  livrés par des personnes qui les ressemblent.
+                Via la communauté, donnez votre avis pour améliorer le service Chapchrono
+                et recevoir des informations en avant-première.
                 </p>
                 <p className="text-center text-[12px] mt-8 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
-                  <Link to="/consommateurs">vous en etes ou ?</Link>
+                  <Link to="/consommateurs">En savoir plus</Link>
                 </p>
               </div>
             </div>
@@ -133,13 +133,13 @@ export default function ContentCo() {
               livraison,
               <strong> vous recevrez chacun une rémunération !</strong>
             </p>
-            <Link to="/career">
+            <Link to="">
               <label
                 tabIndex={0}
                 className="hover:bg-[#ba571a] flex items-center justify-center bg-[#db6013] rounded-full mt-12  p-1 py-3 px-4 text-white w-[180px] cursor-pointer"
                 
               >
-                Parcourir
+                Parrainer mes amis
               </label>
             </Link>
           </div>
@@ -162,7 +162,7 @@ export default function ContentCo() {
           className="h-[62px] w-[151px] mt-12"
         />
         <strong className="lg:text-[24px] text-3xl text-center  tracking-[0.27px] text-[#21264D] drop-shadow-lg">
-          Rejoignez la communauté sur faceboock
+          Rejoignez la communauté sur facebook
         </strong>
         <p className="text-center lg:px-[400px] mt-4 text-black">
           Rejoignez le groupe Facebook et
@@ -172,10 +172,13 @@ export default function ContentCo() {
           </strong>
         </p>
         <label
+        
           tabIndex={0}
           className="hover:bg-[#db6013] bg-[#FF6200] rounded-full p-3 px-10 text-white mt-5 cursor-pointer"
         >
-          Rejoindre mon groupe faceboock
+          <Link to="https://www.facebook.com/groups/152672934064185">
+          Rejoindre mon groupe facebook
+          </Link>
         </label>
       </div>
     </>

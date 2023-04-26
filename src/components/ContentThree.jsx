@@ -14,7 +14,7 @@ export default function ContentThree() {
             </strong>
             <p className="text-[17px] lg:my-16 mt-6 mb-8 text-black">
               Confiance, sourire et conscience, c’est ce qui motive notre
-              communauté. Partagez, partagez, rejoignez Shopopop !
+              communauté. Partagez, partagez, rejoignez Chapchrono !
             </p>
             <Link to="/cotransporteur" className="mt-5">
               <label

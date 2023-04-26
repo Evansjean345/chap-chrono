@@ -182,7 +182,7 @@ export default function Communaute() {
                   <div className="dropdown dropdown-left dropdown-hover">
                     <label
                       tabIndex={0}
-                      className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-10 text-white"
+                      className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white"
                     >
                       Ça m'intérresse
                     </label>
@@ -190,7 +190,7 @@ export default function Communaute() {
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
-                      <div className="w-1/2 bg-[#db6013] text-[10px] text-white rounded-md p-8">
+                      <div className="w-1/2 bg-[#4D148C] text-[13px] text-white rounded-md p-8">
                       <h1>Bienvenue parmi nous,</h1>
                       <br />
                       <p>
@@ -214,13 +214,13 @@ export default function Communaute() {
                       </p>
                       </div>
                       <div className="w-1/2 p-8 ">
-                        <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
+                        <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#db6013] mb-6">
                           <div className=" w-[20%] p-2">
                             <img src="/user.png" alt="" className="" />
                           </div>
                           <div className="w-[80%] p-2 font-light">
                             <Link to="/particulier">
-                              <h6 className="text-sm font-semibold text-[#4D148C]">
+                              <h6 className="text-sm font-semibold text-[#db6013]">
                                 je suis un particulier ,
                               </h6>
                               <p className="text-xs">
@@ -230,13 +230,13 @@ export default function Communaute() {
                           </div>
                         </div>
                         <div>
-                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C] mb-6">
+                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#db6013] mb-6">
                             <div className=" w-[20%] p-2">
                               <img src="/boutique.png" alt="" className="" />
                             </div>
                             <div className="w-[80%] p-2 font-light">
                               <Link to="/commercant">
-                                <h6 className="text-sm font-semibold text-[#4D148C]">
+                                <h6 className="text-sm font-semibold text-[#db6013]">
                                   je suis un commerçant ,
                                 </h6>
                                 <p className="text-xs">
@@ -247,13 +247,13 @@ export default function Communaute() {
                           </div>
                         </div>
                         <div>
-                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#4D148C]">
+                          <div className="rounded-lg w-full h-[70px] flex border-2 bg-slate-50  hover:border-[#db6013]">
                             <div className=" w-[20%] p-2">
                               <img src="/coeur.png" alt="" className="" />
                             </div>
                             <div className="w-[80%] p-2 font-light">
                               <Link to="/other">
-                                <h6 className="text-sm font-semibold text-[#4D148C]">
+                                <h6 className="text-sm font-semibold text-[#db6013]">
                                   ni l'un ni l'autre ,
                                 </h6>
                                 <p className="text-xs">

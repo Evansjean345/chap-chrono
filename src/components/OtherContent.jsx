@@ -23,8 +23,18 @@ export default function OtherContent() {
                     <p className="text-center text-[12px]   px-5 mt-12">
                       Notre service client est ouvert et à votre écoute
                     </p>
-                    <p className="text-center text-[12px] mt-20 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                    <p className="text-center text-[12px] mt-20 text-[#250844]">
                       Contact
+                    </p>
+                    <p className="text-center text-[12px] mt-2 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                      <a href="tel:+2250585052897">
+                        +225 05 85 05 28 97
+                      </a>
+                    </p>
+                    <p className="text-center text-[12px] mt-2 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                      <a href="mailto:info@chapchrono.com">
+                        info@chapchrono.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -48,8 +58,13 @@ export default function OtherContent() {
                       Notre équipe commerciale vous contactera dans les plus
                       brefs délais.
                     </p>
-                    <p className="text-center text-[12px] mt-16 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                    <p className="text-center text-[12px] mt-20 text-[#250844]">
                       Contact Commercial
+                    </p>
+                    <p className="text-center text-[12px] mt-2 cursor-pointer hover:text-[#ba571a] text-[#db6013]">
+                      <a href="mailto:contact@chapchrono.com">
+                      contact@chapchrono.com
+                      </a>
                     </p>
                   </div>
                 </div>

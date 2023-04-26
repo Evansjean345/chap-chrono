@@ -10,8 +10,8 @@ export default function Footer() {
           <img src="/logo/logo-title.png" alt="" className="w-[230px] ml-8" />
           <label
             tabIndex={0}
-            className="hover:bg-[#ba571a] bg-[#db6013] rounded-full p-3 px-8 text-white w-[300px]"
-          >
+            className="hover:bg-[#ba571a] bg-[#db6013] flex place-items-center justify-center rounded-full p-3 px-8 text-white w-[300px]"
+          >               
             <Link to="/career">Devenez commerçant partenaire</Link>
           </label>
           <label
@@ -86,7 +86,7 @@ export default function Footer() {
                   La commmunauté
                 </li>
               </Link>
-              <Link to="/consommatuers">
+              <Link to="/consommateurs">
                 <li className="pb-4  hover:translate-x-[-10px] hover:translate-y-[-2px] text-white transition-all cursor-pointer">
                   Consommateurs
                 </li>
@@ -108,7 +108,7 @@ export default function Footer() {
                   Carrières
                 </li>
               </Link>
-              <Link to="/career">
+              <Link to="/other">
                 <li className="pb-4  hover:translate-x-[-10px] hover:translate-y-[-2px] text-white transition-all cursor-pointer">
                   Contact
                 </li>

@@ -8,11 +8,11 @@ export default function HeroOne() {
         <div className="h-full  w-full lg:pl-20 pt-10 lg:pt-12">
           <div className="lg:p-4 p-10 flex flex-col items-center justify-center">
             <strong className="md:text-[64px] text-[36px] text-center  text-white md:leading-[78px] tracking-[0.27px]  drop-shadow-lg md:ml-0 md:mt-0 mt-4">
-              Faites évoluer votre activité
+              Faites évoluer votre activité&nbsp;
               <br className="items-rounded" />
-              en adoptant la livraison en
+              en adoptant la livraison en&nbsp;
               <br className="items-rounded" />
-              cotransportage
+               cotransportage
             </strong>
             <p className="mt-12  text-center text-white text-[18px]">
               Proposez un service de livraison rapide, flexible et abordable à

@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="h-full md:w-1/2 w-full lg:pl-20 pt-10 lg:pt-20">
           <div className="lg:p-4 p-10">
             <strong className="md:text-[64px] text-[36px] md:text-start  md:leading-[78px] tracking-[0.27px] text-[#ffff] drop-shadow-lg md:ml-0 md:mt-0 mt-4">
-              rejoignez la communauté
+              Rejoignez la communauté
             </strong>
             <p className="mt-6 text-white text-start text-[18px]">
               Lorsque vous rejoignez la communauté Chapchrono, vous deviendrez
@@ -18,12 +18,12 @@ export default function Hero() {
             </p>
             <br />
             <br />
-            <Link to="/career">
+            <Link to="https://www.facebook.com/groups/152672934064185">
               <label
                 tabIndex={0}
                 className="hover:bg-[#37145d] bg-[#4D148C] rounded-full p-3 px-10 text-white w-[180px] cursor-pointer"
               >
-                Je m'inscris
+                Rejoindre
               </label>
             </Link>
           </div>

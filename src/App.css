@@ -77,3 +77,18 @@ var--{
   color: #EFEFF2;
   color: #21264D;
 }
+
+@media (width >= 1550px) {
+  .items-items{
+    margin-left: 470px;
+  }
+}
+
+@media (width >= 1550px) {
+  .items-tem{
+    margin-left: 380px;
+  }
+  #it{
+    margin-left: 310px;
+  }
+}

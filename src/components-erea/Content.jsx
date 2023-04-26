@@ -26,7 +26,7 @@ export default function Content() {
                 tabIndex={0}
                 className="hover:bg-[#3b1169] bg-[#4D148C] rounded-full  p-3 px-10 text-white cursor-pointer"
               >
-                Découvrir la vidéo
+                Découvrir
               </label>
             </Link>
           </div>

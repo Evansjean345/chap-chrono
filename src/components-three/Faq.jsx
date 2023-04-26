@@ -26,7 +26,7 @@ export default function Faq() {
                     className="h-[55px] w-[55px]"
                   />
                   <strong className="text-start md:mt-3 text-[#21264D]">
-                    prenez contact avoc notre equipe
+                  PRENEZ CONTACT AVEC NOTRE ÉQUIPE
                   </strong>
                   {show ? (
                     <>
@@ -34,7 +34,7 @@ export default function Faq() {
                         src="/logo/moins.png"
                         alt=""
                         srcset=""
-                        className="h-[85px] w-[85px] md:ml-[260px] cursor-pointer"
+                        className="h-[85px] w-[85px] md:ml-[400px] cursor-pointer"
                         onClick={() => setShow(!show)}
                       />
                     </>
@@ -45,7 +45,7 @@ export default function Faq() {
                         src="/logo/plus.png"
                         alt=""
                         srcset=""
-                        className="h-[65px] w-[65px] md:ml-[271px]"
+                        className="h-[65px] w-[65px] md:ml-[401px]"
                         onClick={() => setShow(!show)}
                       />
                     </>
@@ -72,7 +72,7 @@ export default function Faq() {
                     className="h-[65px] w-[65px]"
                   />
                   <strong className="text-start md:mt-3 text-[#21264D]">
-                    prenez contact avoc notre equipe
+                  RÉALISEZ VOTRE FORMATION
                   </strong>
                   {show1 ? (
                     <>
@@ -80,7 +80,7 @@ export default function Faq() {
                         src="/logo/moins.png"
                         alt=""
                         srcset=""
-                        className="h-[85px] w-[85px] md:ml-[260px] cursor-pointer"
+                        className="items-items h-[85px] w-[85px] md:ml-[470px] cursor-pointer"
                         onClick={() => {
                           setShow1(!show1);
                           setShowimg(!showimg);
@@ -94,7 +94,7 @@ export default function Faq() {
                         src="/logo/plus.png"
                         alt=""
                         srcset=""
-                        className="h-[65px] w-[65px] md:ml-[260px]"
+                        className="items-items h-[65px] w-[65px] md:ml-[450px] "
                         onClick={() => {
                           setShow1(!show1);
                           setShowimg(!showimg);
@@ -124,7 +124,7 @@ export default function Faq() {
                     className="h-[65px] w-[65px]"
                   />
                   <strong className="text-start md:mt-3 text-[#21264D]">
-                    prenez contact avoc notre equipe
+                  OBTENEZ VOS IDENTIFIANTS ET COMMENCEZ À LIVRER !
                   </strong>
                   {show2 ? (
                     <>
@@ -159,7 +159,7 @@ export default function Faq() {
                   <>
                     <p className="p-4 text-black">
                       Une fois vos identifiants reçus vous pouvez directement
-                      vous rendre sur l’interface Shopopop et commencez vos
+                      vous rendre sur l’interface Chapchrono et commencez vos
                       livraisons.
                     </p>
                   </>

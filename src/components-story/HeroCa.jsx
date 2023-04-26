@@ -11,21 +11,6 @@ export default function HeroCa() {
             <strong className="md:text-[64px] text-[36px] text-center  text-white md:leading-[78px] tracking-[0.27px]  drop-shadow-lg md:ml-0 md:mt-0 mt-4">
               Rejoignez l'équipe Chapchrono
             </strong>
-            <div className="mt-24 flex flex-col sm:flex-row space-y-10 sm:space-y-0 justify-between text-white text-[18px]  w-full">
-              <label
-                tabIndex={0}
-                className="hover:bg-[#7c3912] bg-[#be5010] flex items-center justify-center rounded-full p-3 px-10 text-white cursor-pointer"
-              >
-                Voir nos offres
-              </label>
-
-              <label
-                tabIndex={0}
-                className="hover:bg-[#7c3912] bg-[#be5010] flex items-center justify-center rounded-full p-3 px-10 text-white cursor-pointer"
-              >
-                Candidature spontanée
-              </label>
-            </div>
           </div>
         </div>
       </div>
