@@ -76,9 +76,7 @@ export default function AppFooter() {
               </a>
             </div>
           </div>
-            
         </div>
-            
       </>
     </>
   );
