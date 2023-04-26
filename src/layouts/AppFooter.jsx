@@ -18,9 +18,15 @@ export default function AppFooter() {
               className="w-[120px] h-[46px]"
             />
           </div>
+<<<<<<< HEAD
           <div className="network-img flex bg-[#4D148C] right-0 left-0">
             <p className="text-white">Suivez nous sur les réseaux</p>
             <a href="https://www.facebook.com/profile.php?id=100090845474574" class="text-white">
+=======
+          <div className="network-img flex bg-[#4D148C]">
+            <p className="text-white">Suivez nous sur les réseaux</p>
+            <a class="text-white">
+>>>>>>> e5ef241b1a1a132ac4ab06d9d83c9343c93eb15c
               <svg
                 fill="currentColor"
                 stroke-linecap="round"

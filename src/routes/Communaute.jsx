@@ -190,7 +190,11 @@ export default function Communaute() {
                       tabIndex={0}
                       className="dropdown-content   shadow bg-base-100 rounded-box w-[600px] flex"
                     >
+<<<<<<< HEAD
                       <div className="w-1/2 bg-[#4D148C] text-[13px] text-white rounded-md p-8">
+=======
+                      <div className="w-1/2 bg-[#db6013] text-[13px] text-white rounded-md p-8">
+>>>>>>> e5ef241b1a1a132ac4ab06d9d83c9343c93eb15c
                       <h1>Bienvenue parmi nous,</h1>
                       <br />
                       <p>
