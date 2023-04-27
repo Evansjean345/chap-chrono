@@ -619,7 +619,6 @@ export default function Communaute() {
           </ul>
         </div>
         <Hero />
-        {/Navbar  END/}
       </section>
       <Content />
       <Footer />
@@ -661,7 +660,6 @@ export default function Communaute() {
       <br className="supp" />
       <br className="supp" />
       <br className="supp" />
-      <AppFooter />
-    </>
-  );
+      <AppFooter /></>
+);
 }
