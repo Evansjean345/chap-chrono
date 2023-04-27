@@ -619,7 +619,6 @@ export default function Consommateurs() {
           </ul>
         </div>
         <HeroCons />
-        {/Navbar  END/}
       </section>
       <Content />
       <Footer />
@@ -661,7 +660,5 @@ export default function Consommateurs() {
       <br className="supp" />
       <br className="supp" />
       <br className="supp" />
-      <AppFooter />
-    </>
-  );
+      <AppFooter /></>);
 }
